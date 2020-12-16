@@ -1,0 +1,174 @@
+	_G.fullbright = false -- toggle this or just type in chat on/off
+
+	local lol1
+	local lol2
+	local lol3
+
+	_G.name = game.ReplicatedStorage.Ghost.GhostName.Value
+
+	repeat
+		wait()
+	until _G.name ~= ""
+
+	warn("Ghost Name is " .. _G.name .. " Difficulty is " .. game.ReplicatedStorage.Modifiers.DifficultyModifier.Value)
+
+	game.Players.LocalPlayer.Chatted:connect(
+		function(a)
+			if a == "s" then
+				warn("Saying its name 500 times")
+				for i = 1, 500 do
+					game.Players:Chat(_G.name)
+				end
+			elseif a == "b" then
+				warn("Asking it a question (Hold out spirit box)")
+				for i = 1, 500 do
+					game.Players:Chat("Are you here")
+				end
+			end
+		end
+	)
+
+	game.Players.LocalPlayer.Chatted:connect(
+		function(plse)
+			if plse == "off" then
+				_G.fullbright = false
+			elseif plse == "on" then
+				_G.fullbright = true
+			end
+		end
+	)
+
+	for i, v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Ghost1" then
+			local BillboardGui = Instance.new("BillboardGui")
+			local TextLabel = Instance.new("TextLabel")
+			BillboardGui.AlwaysOnTop = true
+			BillboardGui.LightInfluence = 1
+			BillboardGui.Size = UDim2.new(0, 25, 0, 25)
+			BillboardGui.StudsOffset = Vector3.new(0, 2, 0)
+			TextLabel.Parent = BillboardGui
+			TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+			TextLabel.BackgroundTransparency = 1
+			TextLabel.Size = UDim2.new(1, 0, 1, 0)
+			TextLabel.Text = v.Name
+			TextLabel.TextColor3 = Color3.new(0, 0, 1)
+			TextLabel.TextScaled = true
+			BillboardGui.Parent = v.HumanoidRootPart
+			TextLabel.Parent = BillboardGui
+		end
+	end
+	for i, v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Ghost2" then
+			local BillboardGui = Instance.new("BillboardGui")
+			local TextLabel = Instance.new("TextLabel")
+			BillboardGui.AlwaysOnTop = true
+			BillboardGui.LightInfluence = 1
+			BillboardGui.Size = UDim2.new(0, 25, 0, 25)
+			BillboardGui.StudsOffset = Vector3.new(0, 2, 0)
+			TextLabel.Parent = BillboardGui
+			TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+			TextLabel.BackgroundTransparency = 1
+			TextLabel.Size = UDim2.new(1, 0, 1, 0)
+			TextLabel.Text = v.Name
+			TextLabel.TextColor3 = Color3.new(0, 0, 1)
+			TextLabel.TextScaled = true
+			BillboardGui.Parent = v.HumanoidRootPart
+			TextLabel.Parent = BillboardGui
+		end
+	end
+	for i, v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Ghost3" then
+			local BillboardGui = Instance.new("BillboardGui")
+			local TextLabel = Instance.new("TextLabel")
+			BillboardGui.AlwaysOnTop = true
+			BillboardGui.LightInfluence = 1
+			BillboardGui.Size = UDim2.new(0, 25, 0, 25)
+			BillboardGui.StudsOffset = Vector3.new(0, 2, 0)
+			TextLabel.Parent = BillboardGui
+			TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+			TextLabel.BackgroundTransparency = 1
+			TextLabel.Size = UDim2.new(1, 0, 1, 0)
+			TextLabel.Text = v.Name
+			TextLabel.TextColor3 = Color3.new(0, 0, 1)
+			TextLabel.TextScaled = true
+			BillboardGui.Parent = v.HumanoidRootPart
+			TextLabel.Parent = BillboardGui
+		end
+	end
+	for i, v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Done" and v.Parent.Name == "Spirit Book" then
+			v.Changed:connect(
+				function(a)
+					if v.Value == true then
+						warn("Book changed to true " .. v:GetFullName())
+					end
+				end
+			)
+		end
+	end
+	if game.Workspace:FindFirstChild("GhostOrb") then
+		warn("Found Ghostorbs")
+	end
+	while true do
+		for i, v in pairs(game.Workspace:GetDescendants()) do
+			if v.Name == "Temperature" and v.Parent.Name ~= "Outside" then
+				if v.Value ~= 20 and v.Value ~= 7 then
+					warn("FREEZING TEMPATURE FOUND " .. v.Value .. " Room is " .. v.Parent.Name)
+					wait(1000)
+				elseif v.Value ~= 20 then
+					warn("Tempature is " .. v.Value .. " Room is " .. v.Parent.Name)
+					wait(1)
+				end
+			end
+		end
+	end
+	game.ReplicatedStorage.Ghost.Hunting.Changed:connect(
+		function(a)
+			if game.ReplicatedStorage.Ghost.Hunting.Value == true then
+				warn("Ghost Hunting")
+			end
+		end
+	)
+	while true do
+		if game.ReplicatedStorage.EMF:FindFirstChild("Folder") then
+			warn("EMF Levels Found: "..game.ReplicatedStorage.EMF.Folder.Level)
+			wait()
+		end
+	end
+	game.Players.LocalPlayer.Character.Sanity = math.huge
+	function a1()
+		lol1 = game.Lighting.GlobalShadows
+		lol2 = game.Lighting.Ambient
+		lol3 = game.Lighting.FogEnd
+		while wait(0.5) do
+			if _G.fullbright then
+				game.Lighting.GlobalShadows = true
+				game.Lighting.Ambient = Color3.new(1, 1, 1)
+				game.Lighting.FogEnd = 1000000
+			else
+				game.Lighting.GlobalShadows = lol1
+				game.Lighting.Ambient = lol2
+				game.Lighting.FogEnd = lol3
+			end
+		end
+	end
+	for i, v in pairs(game.Workspace:GetDescendants()) do
+		if v.Name == "Ouija" then
+			local BillboardGui = Instance.new("BillboardGui")
+			local TextLabel = Instance.new("TextLabel")
+			BillboardGui.AlwaysOnTop = true
+			BillboardGui.LightInfluence = 1
+			BillboardGui.Size = UDim2.new(0, 25, 0, 25)
+			BillboardGui.StudsOffset = Vector3.new(0, 2, 0)
+			TextLabel.Parent = BillboardGui
+			TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+			TextLabel.BackgroundTransparency = 1
+			TextLabel.Size = UDim2.new(1, 0, 1, 0)
+			TextLabel.Text = v.Name
+			TextLabel.TextColor3 = Color3.new(0, 0, 1)
+			TextLabel.TextScaled = true
+			BillboardGui.Parent = v
+			TextLabel.Parent = BillboardGui
+		end
+	end
+	spawn(a1)
