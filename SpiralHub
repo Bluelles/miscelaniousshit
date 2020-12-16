@@ -3566,7 +3566,7 @@ local function ERWSJCX_fake_script() -- SpiralHub.TextButton_11.LocalScript
 	local script = Instance.new('LocalScript', SpiralHub.TextButton_11)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/uhohstinkyxiodra/miscelaniousshit/main/robeats'))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Introvert1337/Releases/master/RobeatsGui.lua"))()
 	end)
 end
 coroutine.wrap(ERWSJCX_fake_script)()
