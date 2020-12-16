@@ -1,5 +1,3 @@
---[[fuck yeah this took long to fix cus of the long ass codes hell yeahhhh]]
-
 local SpiralHub = {
 	SpiralHub = Instance.new("ScreenGui"),
 	Frame = Instance.new("ImageLabel"),
@@ -28,9 +26,9 @@ local SpiralHub = {
 	Frame_2 = Instance.new("ImageLabel"),
 	GameName = Instance.new("TextLabel"),
 	ImageLabel_2 = Instance.new("ImageLabel"),
+	Scripts_2 = Instance.new("TextLabel"),
 	TextButton = Instance.new("TextButton"),
 	TextButton_Roundify_2px_5 = Instance.new("ImageLabel"),
-	Scripts_2 = Instance.new("TextLabel"),
 	Frame_3 = Instance.new("ImageLabel"),
 	GameName_2 = Instance.new("TextLabel"),
 	ImageLabel_3 = Instance.new("ImageLabel"),
@@ -73,121 +71,143 @@ local SpiralHub = {
 	TextButton_8 = Instance.new("TextButton"),
 	TextButton_Roundify_2px_12 = Instance.new("ImageLabel"),
 	Scripts_9 = Instance.new("TextLabel"),
-	ScrollBack = Instance.new("ImageLabel"),
+	Frame_10 = Instance.new("ImageLabel"),
+	GameName_9 = Instance.new("TextLabel"),
+	ImageLabel_10 = Instance.new("ImageLabel"),
 	TextButton_9 = Instance.new("TextButton"),
 	TextButton_Roundify_2px_13 = Instance.new("ImageLabel"),
-	Scripts_10 = Instance.new("Frame"),
+	Scripts_10 = Instance.new("TextLabel"),
+	Frame_11 = Instance.new("ImageLabel"),
+	GameName_10 = Instance.new("TextLabel"),
+	ImageLabel_11 = Instance.new("ImageLabel"),
+	TextButton_10 = Instance.new("TextButton"),
+	TextButton_Roundify_2px_14 = Instance.new("ImageLabel"),
+	Scripts_11 = Instance.new("TextLabel"),
+	Frame_12 = Instance.new("ImageLabel"),
+	GameName_11 = Instance.new("TextLabel"),
+	ImageLabel_12 = Instance.new("ImageLabel"),
+	TextButton_11 = Instance.new("TextButton"),
+	TextButton_Roundify_2px_15 = Instance.new("ImageLabel"),
+	Scripts_12 = Instance.new("TextLabel"),
+	Frame_13 = Instance.new("ImageLabel"),
+	GameName_12 = Instance.new("TextLabel"),
+	ImageLabel_13 = Instance.new("ImageLabel"),
+	TextButton_12 = Instance.new("TextButton"),
+	TextButton_Roundify_2px_16 = Instance.new("ImageLabel"),
+	Scripts_13 = Instance.new("TextLabel"),
+	ScrollBack = Instance.new("ImageLabel"),
+	Scripts_14 = Instance.new("Frame"),
 	General = Instance.new("Frame"),
 	inf = Instance.new("TextButton"),
-	TextButton_Roundify_2px_14 = Instance.new("ImageLabel"),
+	TextButton_Roundify_2px_17 = Instance.new("ImageLabel"),
 	Tip = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px = Instance.new("ImageLabel"),
 	antikick = Instance.new("TextButton"),
-	TextButton_Roundify_2px_15 = Instance.new("ImageLabel"),
+	TextButton_Roundify_2px_18 = Instance.new("ImageLabel"),
 	Tip_2 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_2 = Instance.new("ImageLabel"),
 	fullbright = Instance.new("TextButton"),
-	TextButton_Roundify_2px_16 = Instance.new("ImageLabel"),
+	TextButton_Roundify_2px_19 = Instance.new("ImageLabel"),
 	Tip_3 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_3 = Instance.new("ImageLabel"),
 	equip = Instance.new("TextButton"),
-	TextButton_Roundify_2px_17 = Instance.new("ImageLabel"),
+	TextButton_Roundify_2px_20 = Instance.new("ImageLabel"),
 	Tip_4 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_4 = Instance.new("ImageLabel"),
 	discord = Instance.new("TextButton"),
-	TextButton_Roundify_2px_18 = Instance.new("ImageLabel"),
+	TextButton_Roundify_2px_21 = Instance.new("ImageLabel"),
 	Tip_5 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_5 = Instance.new("ImageLabel"),
 	TextLabel = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_6 = Instance.new("ImageLabel"),
 	chatbypass = Instance.new("TextButton"),
-	TextButton_Roundify_2px_19 = Instance.new("ImageLabel"),
+	TextButton_Roundify_2px_22 = Instance.new("ImageLabel"),
 	Tip_6 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_7 = Instance.new("ImageLabel"),
 	InvisFling = Instance.new("TextButton"),
-	TextButton_Roundify_2px_20 = Instance.new("ImageLabel"),
+	TextButton_Roundify_2px_23 = Instance.new("ImageLabel"),
 	Tip_7 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_8 = Instance.new("ImageLabel"),
 	godmode = Instance.new("TextButton"),
-	TextButton_Roundify_2px_21 = Instance.new("ImageLabel"),
+	TextButton_Roundify_2px_24 = Instance.new("ImageLabel"),
 	Tip_8 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_9 = Instance.new("ImageLabel"),
 	OwlHub = Instance.new("TextButton"),
-	TextButton_Roundify_2px_22 = Instance.new("ImageLabel"),
+	TextButton_Roundify_2px_25 = Instance.new("ImageLabel"),
 	Tip_9 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_10 = Instance.new("ImageLabel"),
 	graphics = Instance.new("TextButton"),
-	TextButton_Roundify_2px_23 = Instance.new("ImageLabel"),
+	TextButton_Roundify_2px_26 = Instance.new("ImageLabel"),
 	Tip_10 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_11 = Instance.new("ImageLabel"),
 	dance = Instance.new("TextButton"),
-	TextButton_Roundify_2px_24 = Instance.new("ImageLabel"),
+	TextButton_Roundify_2px_27 = Instance.new("ImageLabel"),
 	Tip_11 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_12 = Instance.new("ImageLabel"),
 	aimbot = Instance.new("TextButton"),
-	TextButton_Roundify_2px_25 = Instance.new("ImageLabel"),
+	TextButton_Roundify_2px_28 = Instance.new("ImageLabel"),
 	Tip_12 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_13 = Instance.new("ImageLabel"),
 	chathaxx = Instance.new("TextButton"),
-	TextButton_Roundify_2px_26 = Instance.new("ImageLabel"),
+	TextButton_Roundify_2px_29 = Instance.new("ImageLabel"),
 	Tip_13 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_14 = Instance.new("ImageLabel"),
 	darkhub = Instance.new("TextButton"),
-	TextButton_Roundify_2px_27 = Instance.new("ImageLabel"),
+	TextButton_Roundify_2px_30 = Instance.new("ImageLabel"),
 	Tip_14 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_15 = Instance.new("ImageLabel"),
 	DaHood = Instance.new("Frame"),
 	guis = Instance.new("TextButton"),
-	TextButton_Roundify_2px_28 = Instance.new("ImageLabel"),
+	TextButton_Roundify_2px_31 = Instance.new("ImageLabel"),
 	Tip_15 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_16 = Instance.new("ImageLabel"),
 	TextLabel_2 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_17 = Instance.new("ImageLabel"),
 	Jailbreak = Instance.new("Frame"),
 	rob = Instance.new("TextButton"),
-	TextButton_Roundify_2px_29 = Instance.new("ImageLabel"),
+	TextButton_Roundify_2px_32 = Instance.new("ImageLabel"),
 	Tip_16 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_18 = Instance.new("ImageLabel"),
 	TextLabel_3 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_19 = Instance.new("ImageLabel"),
 	Strucid = Instance.new("Frame"),
 	dark = Instance.new("TextButton"),
-	TextButton_Roundify_2px_30 = Instance.new("ImageLabel"),
+	TextButton_Roundify_2px_33 = Instance.new("ImageLabel"),
 	Tip_17 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_20 = Instance.new("ImageLabel"),
 	TextLabel_4 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_21 = Instance.new("ImageLabel"),
 	BloxBurg = Instance.new("Frame"),
 	alpha = Instance.new("TextButton"),
-	TextButton_Roundify_2px_31 = Instance.new("ImageLabel"),
+	TextButton_Roundify_2px_34 = Instance.new("ImageLabel"),
 	Tip_18 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_22 = Instance.new("ImageLabel"),
 	TextLabel_5 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_23 = Instance.new("ImageLabel"),
 	Paintball = Instance.new("Frame"),
 	dark_2 = Instance.new("TextButton"),
-	TextButton_Roundify_2px_32 = Instance.new("ImageLabel"),
+	TextButton_Roundify_2px_35 = Instance.new("ImageLabel"),
 	Tip_19 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_24 = Instance.new("ImageLabel"),
 	TextLabel_6 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_25 = Instance.new("ImageLabel"),
 	CounterBlox = Instance.new("Frame"),
 	hex = Instance.new("TextButton"),
-	TextButton_Roundify_2px_33 = Instance.new("ImageLabel"),
+	TextButton_Roundify_2px_36 = Instance.new("ImageLabel"),
 	Tip_20 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_26 = Instance.new("ImageLabel"),
 	TextLabel_7 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_27 = Instance.new("ImageLabel"),
 	BreakingPoint = Instance.new("Frame"),
 	auto = Instance.new("TextButton"),
-	TextButton_Roundify_2px_34 = Instance.new("ImageLabel"),
+	TextButton_Roundify_2px_37 = Instance.new("ImageLabel"),
 	Tip_21 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_28 = Instance.new("ImageLabel"),
 	TextLabel_8 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_29 = Instance.new("ImageLabel"),
 	Prisonlife = Instance.new("Frame"),
 	gui = Instance.new("TextButton"),
-	TextButton_Roundify_2px_35 = Instance.new("ImageLabel"),
+	TextButton_Roundify_2px_38 = Instance.new("ImageLabel"),
 	Tip_22 = Instance.new("TextLabel"),
 	TextLabel_Roundify_2px_30 = Instance.new("ImageLabel"),
 	TextLabel_9 = Instance.new("TextLabel"),
@@ -223,7 +243,6 @@ SpiralHub.Frame.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 SpiralHub.Frame.BackgroundTransparency = 1.000
 SpiralHub.Frame.Position = UDim2.new(0.0541935451, 0, 0.391930848, 0)
 SpiralHub.Frame.Size = UDim2.new(0, 500, 0, 285)
-SpiralHub.Frame.Visible = false
 SpiralHub.Frame.Image = "rbxassetid://3570695787"
 SpiralHub.Frame.ImageColor3 = Color3.fromRGB(40, 40, 40)
 SpiralHub.Frame.ScaleType = Enum.ScaleType.Slice
@@ -472,7 +491,6 @@ SpiralHub.Games_2.BackgroundTransparency = 1.000
 SpiralHub.Games_2.BorderSizePixel = 0
 SpiralHub.Games_2.Position = UDim2.new(0, 0, 0.000991555862, 0)
 SpiralHub.Games_2.Size = UDim2.new(0, 500, 0, 229)
-SpiralHub.Games_2.Visible = false
 
 SpiralHub.GameScroll.Name = "GameScroll"
 SpiralHub.GameScroll.Parent = SpiralHub.Games_2
@@ -484,7 +502,8 @@ SpiralHub.GameScroll.Position = UDim2.new(0.0179999992, 0, 0.161572054, 0)
 SpiralHub.GameScroll.Size = UDim2.new(0, 475, 0, 185)
 SpiralHub.GameScroll.ZIndex = 2
 SpiralHub.GameScroll.BottomImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
-SpiralHub.GameScroll.CanvasSize = UDim2.new(0, 0, 2, 200)
+SpiralHub.GameScroll.CanvasPosition = Vector2.new(0, 452)
+SpiralHub.GameScroll.CanvasSize = UDim2.new(0, 0, 3, 400)
 SpiralHub.GameScroll.ScrollBarThickness = 8
 SpiralHub.GameScroll.TopImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
 
@@ -529,6 +548,20 @@ SpiralHub.ImageLabel_2.Size = UDim2.new(0, 60, 0, 60)
 SpiralHub.ImageLabel_2.ZIndex = 3
 SpiralHub.ImageLabel_2.Image = "http://www.roblox.com/asset/?id=2084956577"
 
+SpiralHub.Scripts_2.Name = "Scripts"
+SpiralHub.Scripts_2.Parent = SpiralHub.Frame_2
+SpiralHub.Scripts_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.Scripts_2.BackgroundTransparency = 1.000
+SpiralHub.Scripts_2.BorderSizePixel = 0
+SpiralHub.Scripts_2.Position = UDim2.new(0.172631577, 0, 0.519999981, 0)
+SpiralHub.Scripts_2.Size = UDim2.new(0, 150, 0, 30)
+SpiralHub.Scripts_2.ZIndex = 3
+SpiralHub.Scripts_2.Font = Enum.Font.SciFi
+SpiralHub.Scripts_2.Text = "1 Script"
+SpiralHub.Scripts_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.Scripts_2.TextSize = 14.000
+SpiralHub.Scripts_2.TextXAlignment = Enum.TextXAlignment.Left
+
 SpiralHub.TextButton.Parent = SpiralHub.Frame_2
 SpiralHub.TextButton.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 SpiralHub.TextButton.BackgroundTransparency = 1.000
@@ -556,20 +589,6 @@ SpiralHub.TextButton_Roundify_2px_5.ImageColor3 = Color3.fromRGB(30, 30, 30)
 SpiralHub.TextButton_Roundify_2px_5.ScaleType = Enum.ScaleType.Slice
 SpiralHub.TextButton_Roundify_2px_5.SliceCenter = Rect.new(100, 100, 100, 100)
 SpiralHub.TextButton_Roundify_2px_5.SliceScale = 0.020
-
-SpiralHub.Scripts_2.Name = "Scripts"
-SpiralHub.Scripts_2.Parent = SpiralHub.Frame_2
-SpiralHub.Scripts_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpiralHub.Scripts_2.BackgroundTransparency = 1.000
-SpiralHub.Scripts_2.BorderSizePixel = 0
-SpiralHub.Scripts_2.Position = UDim2.new(0.172631577, 0, 0.519999981, 0)
-SpiralHub.Scripts_2.Size = UDim2.new(0, 150, 0, 30)
-SpiralHub.Scripts_2.ZIndex = 3
-SpiralHub.Scripts_2.Font = Enum.Font.SciFi
-SpiralHub.Scripts_2.Text = "1 Script"
-SpiralHub.Scripts_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-SpiralHub.Scripts_2.TextSize = 14.000
-SpiralHub.Scripts_2.TextXAlignment = Enum.TextXAlignment.Left
 
 SpiralHub.Frame_3.Name = "Frame"
 SpiralHub.Frame_3.Parent = SpiralHub.GameScroll
@@ -1117,6 +1136,318 @@ SpiralHub.Scripts_9.TextColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.Scripts_9.TextSize = 14.000
 SpiralHub.Scripts_9.TextXAlignment = Enum.TextXAlignment.Left
 
+SpiralHub.Frame_10.Name = "Frame"
+SpiralHub.Frame_10.Parent = SpiralHub.GameScroll
+SpiralHub.Frame_10.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
+SpiralHub.Frame_10.BackgroundTransparency = 1.000
+SpiralHub.Frame_10.Position = UDim2.new(0.0126315793, 0, -1.64959886e-07, 0)
+SpiralHub.Frame_10.Size = UDim2.new(0, 452, 0, 75)
+SpiralHub.Frame_10.ZIndex = 2
+SpiralHub.Frame_10.Image = "rbxassetid://3570695787"
+SpiralHub.Frame_10.ImageColor3 = Color3.fromRGB(55, 55, 55)
+SpiralHub.Frame_10.ScaleType = Enum.ScaleType.Slice
+SpiralHub.Frame_10.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.Frame_10.SliceScale = 0.020
+
+SpiralHub.GameName_9.Name = "GameName"
+SpiralHub.GameName_9.Parent = SpiralHub.Frame_10
+SpiralHub.GameName_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.GameName_9.BackgroundTransparency = 1.000
+SpiralHub.GameName_9.BorderSizePixel = 0
+SpiralHub.GameName_9.Position = UDim2.new(0.172631577, 0, 0.119999997, 0)
+SpiralHub.GameName_9.Size = UDim2.new(0, 150, 0, 30)
+SpiralHub.GameName_9.ZIndex = 3
+SpiralHub.GameName_9.Font = Enum.Font.SciFi
+SpiralHub.GameName_9.Text = "The Rake"
+SpiralHub.GameName_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.GameName_9.TextSize = 14.000
+SpiralHub.GameName_9.TextXAlignment = Enum.TextXAlignment.Left
+
+SpiralHub.ImageLabel_10.Parent = SpiralHub.Frame_10
+SpiralHub.ImageLabel_10.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+SpiralHub.ImageLabel_10.BorderColor3 = Color3.fromRGB(50, 50, 50)
+SpiralHub.ImageLabel_10.BorderSizePixel = 2
+SpiralHub.ImageLabel_10.Position = UDim2.new(0.0231578946, 0, 0.0933333337, 0)
+SpiralHub.ImageLabel_10.Size = UDim2.new(0, 60, 0, 60)
+SpiralHub.ImageLabel_10.ZIndex = 3
+SpiralHub.ImageLabel_10.Image = "http://www.roblox.com/asset/?id=2961609632"
+
+SpiralHub.TextButton_9.Parent = SpiralHub.Frame_10
+SpiralHub.TextButton_9.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_9.BackgroundTransparency = 1.000
+SpiralHub.TextButton_9.BorderSizePixel = 0
+SpiralHub.TextButton_9.Position = UDim2.new(0.532631576, 0, 0.159999996, 0)
+SpiralHub.TextButton_9.Size = UDim2.new(0, 200, 0, 50)
+SpiralHub.TextButton_9.ZIndex = 4
+SpiralHub.TextButton_9.Font = Enum.Font.Gotham
+SpiralHub.TextButton_9.Text = "Execute"
+SpiralHub.TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_9.TextSize = 20.000
+
+SpiralHub.TextButton_Roundify_2px_13.Name = "TextButton_Roundify_2px"
+SpiralHub.TextButton_Roundify_2px_13.Parent = SpiralHub.TextButton_9
+SpiralHub.TextButton_Roundify_2px_13.Active = true
+SpiralHub.TextButton_Roundify_2px_13.AnchorPoint = Vector2.new(0.5, 0.5)
+SpiralHub.TextButton_Roundify_2px_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_Roundify_2px_13.BackgroundTransparency = 1.000
+SpiralHub.TextButton_Roundify_2px_13.Position = UDim2.new(0.5, 0, 0.5, 0)
+SpiralHub.TextButton_Roundify_2px_13.Selectable = true
+SpiralHub.TextButton_Roundify_2px_13.Size = UDim2.new(1, 0, 1, 0)
+SpiralHub.TextButton_Roundify_2px_13.ZIndex = 3
+SpiralHub.TextButton_Roundify_2px_13.Image = "rbxassetid://3570695787"
+SpiralHub.TextButton_Roundify_2px_13.ImageColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_Roundify_2px_13.ScaleType = Enum.ScaleType.Slice
+SpiralHub.TextButton_Roundify_2px_13.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.TextButton_Roundify_2px_13.SliceScale = 0.020
+
+SpiralHub.Scripts_10.Name = "Scripts"
+SpiralHub.Scripts_10.Parent = SpiralHub.Frame_10
+SpiralHub.Scripts_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.Scripts_10.BackgroundTransparency = 1.000
+SpiralHub.Scripts_10.BorderSizePixel = 0
+SpiralHub.Scripts_10.Position = UDim2.new(0.172631577, 0, 0.519999981, 0)
+SpiralHub.Scripts_10.Size = UDim2.new(0, 150, 0, 30)
+SpiralHub.Scripts_10.ZIndex = 3
+SpiralHub.Scripts_10.Font = Enum.Font.SciFi
+SpiralHub.Scripts_10.Text = "ESP + GUI"
+SpiralHub.Scripts_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.Scripts_10.TextSize = 14.000
+SpiralHub.Scripts_10.TextXAlignment = Enum.TextXAlignment.Left
+
+SpiralHub.Frame_11.Name = "Frame"
+SpiralHub.Frame_11.Parent = SpiralHub.GameScroll
+SpiralHub.Frame_11.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
+SpiralHub.Frame_11.BackgroundTransparency = 1.000
+SpiralHub.Frame_11.Position = UDim2.new(0.0126315793, 0, -1.64959886e-07, 0)
+SpiralHub.Frame_11.Size = UDim2.new(0, 452, 0, 75)
+SpiralHub.Frame_11.ZIndex = 2
+SpiralHub.Frame_11.Image = "rbxassetid://3570695787"
+SpiralHub.Frame_11.ImageColor3 = Color3.fromRGB(55, 55, 55)
+SpiralHub.Frame_11.ScaleType = Enum.ScaleType.Slice
+SpiralHub.Frame_11.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.Frame_11.SliceScale = 0.020
+
+SpiralHub.GameName_10.Name = "GameName"
+SpiralHub.GameName_10.Parent = SpiralHub.Frame_11
+SpiralHub.GameName_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.GameName_10.BackgroundTransparency = 1.000
+SpiralHub.GameName_10.BorderSizePixel = 0
+SpiralHub.GameName_10.Position = UDim2.new(0.172631577, 0, 0.119999997, 0)
+SpiralHub.GameName_10.Size = UDim2.new(0, 150, 0, 30)
+SpiralHub.GameName_10.ZIndex = 3
+SpiralHub.GameName_10.Font = Enum.Font.SciFi
+SpiralHub.GameName_10.Text = "Word Bomb"
+SpiralHub.GameName_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.GameName_10.TextSize = 14.000
+SpiralHub.GameName_10.TextXAlignment = Enum.TextXAlignment.Left
+
+SpiralHub.ImageLabel_11.Parent = SpiralHub.Frame_11
+SpiralHub.ImageLabel_11.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+SpiralHub.ImageLabel_11.BorderColor3 = Color3.fromRGB(50, 50, 50)
+SpiralHub.ImageLabel_11.BorderSizePixel = 2
+SpiralHub.ImageLabel_11.Position = UDim2.new(0.0231578946, 0, 0.0933333337, 0)
+SpiralHub.ImageLabel_11.Size = UDim2.new(0, 60, 0, 60)
+SpiralHub.ImageLabel_11.ZIndex = 3
+SpiralHub.ImageLabel_11.Image = "http://www.roblox.com/asset/?id=6095148555"
+
+SpiralHub.TextButton_10.Parent = SpiralHub.Frame_11
+SpiralHub.TextButton_10.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_10.BackgroundTransparency = 1.000
+SpiralHub.TextButton_10.BorderSizePixel = 0
+SpiralHub.TextButton_10.Position = UDim2.new(0.532631576, 0, 0.159999996, 0)
+SpiralHub.TextButton_10.Size = UDim2.new(0, 200, 0, 50)
+SpiralHub.TextButton_10.ZIndex = 4
+SpiralHub.TextButton_10.Font = Enum.Font.Gotham
+SpiralHub.TextButton_10.Text = "Execute"
+SpiralHub.TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_10.TextSize = 20.000
+
+SpiralHub.TextButton_Roundify_2px_14.Name = "TextButton_Roundify_2px"
+SpiralHub.TextButton_Roundify_2px_14.Parent = SpiralHub.TextButton_10
+SpiralHub.TextButton_Roundify_2px_14.Active = true
+SpiralHub.TextButton_Roundify_2px_14.AnchorPoint = Vector2.new(0.5, 0.5)
+SpiralHub.TextButton_Roundify_2px_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_Roundify_2px_14.BackgroundTransparency = 1.000
+SpiralHub.TextButton_Roundify_2px_14.Position = UDim2.new(0.5, 0, 0.5, 0)
+SpiralHub.TextButton_Roundify_2px_14.Selectable = true
+SpiralHub.TextButton_Roundify_2px_14.Size = UDim2.new(1, 0, 1, 0)
+SpiralHub.TextButton_Roundify_2px_14.ZIndex = 3
+SpiralHub.TextButton_Roundify_2px_14.Image = "rbxassetid://3570695787"
+SpiralHub.TextButton_Roundify_2px_14.ImageColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_Roundify_2px_14.ScaleType = Enum.ScaleType.Slice
+SpiralHub.TextButton_Roundify_2px_14.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.TextButton_Roundify_2px_14.SliceScale = 0.020
+
+SpiralHub.Scripts_11.Name = "Scripts"
+SpiralHub.Scripts_11.Parent = SpiralHub.Frame_11
+SpiralHub.Scripts_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.Scripts_11.BackgroundTransparency = 1.000
+SpiralHub.Scripts_11.BorderSizePixel = 0
+SpiralHub.Scripts_11.Position = UDim2.new(0.172631577, 0, 0.519999981, 0)
+SpiralHub.Scripts_11.Size = UDim2.new(0, 150, 0, 30)
+SpiralHub.Scripts_11.ZIndex = 3
+SpiralHub.Scripts_11.Font = Enum.Font.SciFi
+SpiralHub.Scripts_11.Text = "Auto Guesser"
+SpiralHub.Scripts_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.Scripts_11.TextSize = 14.000
+SpiralHub.Scripts_11.TextXAlignment = Enum.TextXAlignment.Left
+
+SpiralHub.Frame_12.Name = "Frame"
+SpiralHub.Frame_12.Parent = SpiralHub.GameScroll
+SpiralHub.Frame_12.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
+SpiralHub.Frame_12.BackgroundTransparency = 1.000
+SpiralHub.Frame_12.Position = UDim2.new(0.0126315793, 0, -1.64959886e-07, 0)
+SpiralHub.Frame_12.Size = UDim2.new(0, 452, 0, 75)
+SpiralHub.Frame_12.ZIndex = 2
+SpiralHub.Frame_12.Image = "rbxassetid://3570695787"
+SpiralHub.Frame_12.ImageColor3 = Color3.fromRGB(55, 55, 55)
+SpiralHub.Frame_12.ScaleType = Enum.ScaleType.Slice
+SpiralHub.Frame_12.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.Frame_12.SliceScale = 0.020
+
+SpiralHub.GameName_11.Name = "GameName"
+SpiralHub.GameName_11.Parent = SpiralHub.Frame_12
+SpiralHub.GameName_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.GameName_11.BackgroundTransparency = 1.000
+SpiralHub.GameName_11.BorderSizePixel = 0
+SpiralHub.GameName_11.Position = UDim2.new(0.172631577, 0, 0.119999997, 0)
+SpiralHub.GameName_11.Size = UDim2.new(0, 150, 0, 30)
+SpiralHub.GameName_11.ZIndex = 3
+SpiralHub.GameName_11.Font = Enum.Font.SciFi
+SpiralHub.GameName_11.Text = "Robeats"
+SpiralHub.GameName_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.GameName_11.TextSize = 14.000
+SpiralHub.GameName_11.TextXAlignment = Enum.TextXAlignment.Left
+
+SpiralHub.ImageLabel_12.Parent = SpiralHub.Frame_12
+SpiralHub.ImageLabel_12.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+SpiralHub.ImageLabel_12.BorderColor3 = Color3.fromRGB(50, 50, 50)
+SpiralHub.ImageLabel_12.BorderSizePixel = 2
+SpiralHub.ImageLabel_12.Position = UDim2.new(0.0231578946, 0, 0.0933333337, 0)
+SpiralHub.ImageLabel_12.Size = UDim2.new(0, 60, 0, 60)
+SpiralHub.ImageLabel_12.ZIndex = 3
+SpiralHub.ImageLabel_12.Image = "https://www.roblox.com/asset-thumbnail/image?assetId=698448212&width=768&height=432&format=png"
+
+SpiralHub.TextButton_11.Parent = SpiralHub.Frame_12
+SpiralHub.TextButton_11.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_11.BackgroundTransparency = 1.000
+SpiralHub.TextButton_11.BorderSizePixel = 0
+SpiralHub.TextButton_11.Position = UDim2.new(0.532631576, 0, 0.159999996, 0)
+SpiralHub.TextButton_11.Size = UDim2.new(0, 200, 0, 50)
+SpiralHub.TextButton_11.ZIndex = 4
+SpiralHub.TextButton_11.Font = Enum.Font.Gotham
+SpiralHub.TextButton_11.Text = "Execute"
+SpiralHub.TextButton_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_11.TextSize = 20.000
+
+SpiralHub.TextButton_Roundify_2px_15.Name = "TextButton_Roundify_2px"
+SpiralHub.TextButton_Roundify_2px_15.Parent = SpiralHub.TextButton_11
+SpiralHub.TextButton_Roundify_2px_15.Active = true
+SpiralHub.TextButton_Roundify_2px_15.AnchorPoint = Vector2.new(0.5, 0.5)
+SpiralHub.TextButton_Roundify_2px_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_Roundify_2px_15.BackgroundTransparency = 1.000
+SpiralHub.TextButton_Roundify_2px_15.Position = UDim2.new(0.5, 0, 0.5, 0)
+SpiralHub.TextButton_Roundify_2px_15.Selectable = true
+SpiralHub.TextButton_Roundify_2px_15.Size = UDim2.new(1, 0, 1, 0)
+SpiralHub.TextButton_Roundify_2px_15.ZIndex = 3
+SpiralHub.TextButton_Roundify_2px_15.Image = "rbxassetid://3570695787"
+SpiralHub.TextButton_Roundify_2px_15.ImageColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_Roundify_2px_15.ScaleType = Enum.ScaleType.Slice
+SpiralHub.TextButton_Roundify_2px_15.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.TextButton_Roundify_2px_15.SliceScale = 0.020
+
+SpiralHub.Scripts_12.Name = "Scripts"
+SpiralHub.Scripts_12.Parent = SpiralHub.Frame_12
+SpiralHub.Scripts_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.Scripts_12.BackgroundTransparency = 1.000
+SpiralHub.Scripts_12.BorderSizePixel = 0
+SpiralHub.Scripts_12.Position = UDim2.new(0.172631577, 0, 0.519999981, 0)
+SpiralHub.Scripts_12.Size = UDim2.new(0, 150, 0, 30)
+SpiralHub.Scripts_12.ZIndex = 3
+SpiralHub.Scripts_12.Font = Enum.Font.SciFi
+SpiralHub.Scripts_12.Text = "Auto Player"
+SpiralHub.Scripts_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.Scripts_12.TextSize = 14.000
+SpiralHub.Scripts_12.TextXAlignment = Enum.TextXAlignment.Left
+
+SpiralHub.Frame_13.Name = "Frame"
+SpiralHub.Frame_13.Parent = SpiralHub.GameScroll
+SpiralHub.Frame_13.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
+SpiralHub.Frame_13.BackgroundTransparency = 1.000
+SpiralHub.Frame_13.Position = UDim2.new(0.0126315793, 0, -1.64959886e-07, 0)
+SpiralHub.Frame_13.Size = UDim2.new(0, 452, 0, 75)
+SpiralHub.Frame_13.ZIndex = 2
+SpiralHub.Frame_13.Image = "rbxassetid://3570695787"
+SpiralHub.Frame_13.ImageColor3 = Color3.fromRGB(55, 55, 55)
+SpiralHub.Frame_13.ScaleType = Enum.ScaleType.Slice
+SpiralHub.Frame_13.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.Frame_13.SliceScale = 0.020
+
+SpiralHub.GameName_12.Name = "GameName"
+SpiralHub.GameName_12.Parent = SpiralHub.Frame_13
+SpiralHub.GameName_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.GameName_12.BackgroundTransparency = 1.000
+SpiralHub.GameName_12.BorderSizePixel = 0
+SpiralHub.GameName_12.Position = UDim2.new(0.172631577, 0, 0.119999997, 0)
+SpiralHub.GameName_12.Size = UDim2.new(0, 150, 0, 30)
+SpiralHub.GameName_12.ZIndex = 3
+SpiralHub.GameName_12.Font = Enum.Font.SciFi
+SpiralHub.GameName_12.Text = "Murder Mystery 2"
+SpiralHub.GameName_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.GameName_12.TextSize = 14.000
+SpiralHub.GameName_12.TextXAlignment = Enum.TextXAlignment.Left
+
+SpiralHub.ImageLabel_13.Parent = SpiralHub.Frame_13
+SpiralHub.ImageLabel_13.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+SpiralHub.ImageLabel_13.BorderColor3 = Color3.fromRGB(50, 50, 50)
+SpiralHub.ImageLabel_13.BorderSizePixel = 2
+SpiralHub.ImageLabel_13.Position = UDim2.new(0.0231578946, 0, 0.0933333337, 0)
+SpiralHub.ImageLabel_13.Size = UDim2.new(0, 60, 0, 60)
+SpiralHub.ImageLabel_13.ZIndex = 3
+SpiralHub.ImageLabel_13.Image = "rbxassetid://950034311"
+
+SpiralHub.TextButton_12.Parent = SpiralHub.Frame_13
+SpiralHub.TextButton_12.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_12.BackgroundTransparency = 1.000
+SpiralHub.TextButton_12.BorderSizePixel = 0
+SpiralHub.TextButton_12.Position = UDim2.new(0.532631576, 0, 0.159999996, 0)
+SpiralHub.TextButton_12.Size = UDim2.new(0, 200, 0, 50)
+SpiralHub.TextButton_12.ZIndex = 4
+SpiralHub.TextButton_12.Font = Enum.Font.Gotham
+SpiralHub.TextButton_12.Text = "Execute"
+SpiralHub.TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_12.TextSize = 20.000
+
+SpiralHub.TextButton_Roundify_2px_16.Name = "TextButton_Roundify_2px"
+SpiralHub.TextButton_Roundify_2px_16.Parent = SpiralHub.TextButton_12
+SpiralHub.TextButton_Roundify_2px_16.Active = true
+SpiralHub.TextButton_Roundify_2px_16.AnchorPoint = Vector2.new(0.5, 0.5)
+SpiralHub.TextButton_Roundify_2px_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_Roundify_2px_16.BackgroundTransparency = 1.000
+SpiralHub.TextButton_Roundify_2px_16.Position = UDim2.new(0.5, 0, 0.5, 0)
+SpiralHub.TextButton_Roundify_2px_16.Selectable = true
+SpiralHub.TextButton_Roundify_2px_16.Size = UDim2.new(1, 0, 1, 0)
+SpiralHub.TextButton_Roundify_2px_16.ZIndex = 3
+SpiralHub.TextButton_Roundify_2px_16.Image = "rbxassetid://3570695787"
+SpiralHub.TextButton_Roundify_2px_16.ImageColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_Roundify_2px_16.ScaleType = Enum.ScaleType.Slice
+SpiralHub.TextButton_Roundify_2px_16.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.TextButton_Roundify_2px_16.SliceScale = 0.020
+
+SpiralHub.Scripts_13.Name = "Scripts"
+SpiralHub.Scripts_13.Parent = SpiralHub.Frame_13
+SpiralHub.Scripts_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.Scripts_13.BackgroundTransparency = 1.000
+SpiralHub.Scripts_13.BorderSizePixel = 0
+SpiralHub.Scripts_13.Position = UDim2.new(0.172631577, 0, 0.519999981, 0)
+SpiralHub.Scripts_13.Size = UDim2.new(0, 150, 0, 30)
+SpiralHub.Scripts_13.ZIndex = 3
+SpiralHub.Scripts_13.Font = Enum.Font.SciFi
+SpiralHub.Scripts_13.Text = "Eclipse GUI"
+SpiralHub.Scripts_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.Scripts_13.TextSize = 14.000
+SpiralHub.Scripts_13.TextXAlignment = Enum.TextXAlignment.Left
+
 SpiralHub.ScrollBack.Name = "ScrollBack"
 SpiralHub.ScrollBack.Parent = SpiralHub.Games_2
 SpiralHub.ScrollBack.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -1130,44 +1461,16 @@ SpiralHub.ScrollBack.ScaleType = Enum.ScaleType.Slice
 SpiralHub.ScrollBack.SliceCenter = Rect.new(100, 100, 100, 100)
 SpiralHub.ScrollBack.SliceScale = 0.020
 
-SpiralHub.TextButton_9.Parent = SpiralHub.Games_2
-SpiralHub.TextButton_9.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-SpiralHub.TextButton_9.BackgroundTransparency = 1.000
-SpiralHub.TextButton_9.BorderSizePixel = 0
-SpiralHub.TextButton_9.Position = UDim2.new(0.0179999992, 0, 0.0305676851, 0)
-SpiralHub.TextButton_9.Size = UDim2.new(0, 475, 0, 25)
-SpiralHub.TextButton_9.ZIndex = 5
-SpiralHub.TextButton_9.Font = Enum.Font.Gotham
-SpiralHub.TextButton_9.Text = "General Scripts"
-SpiralHub.TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
-SpiralHub.TextButton_9.TextSize = 14.000
-
-SpiralHub.TextButton_Roundify_2px_13.Name = "TextButton_Roundify_2px"
-SpiralHub.TextButton_Roundify_2px_13.Parent = SpiralHub.TextButton_9
-SpiralHub.TextButton_Roundify_2px_13.Active = true
-SpiralHub.TextButton_Roundify_2px_13.AnchorPoint = Vector2.new(0.5, 0.5)
-SpiralHub.TextButton_Roundify_2px_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpiralHub.TextButton_Roundify_2px_13.BackgroundTransparency = 1.000
-SpiralHub.TextButton_Roundify_2px_13.Position = UDim2.new(0.5, 0, 0.5, 0)
-SpiralHub.TextButton_Roundify_2px_13.Selectable = true
-SpiralHub.TextButton_Roundify_2px_13.Size = UDim2.new(1, 0, 1, 0)
-SpiralHub.TextButton_Roundify_2px_13.ZIndex = 4
-SpiralHub.TextButton_Roundify_2px_13.Image = "rbxassetid://3570695787"
-SpiralHub.TextButton_Roundify_2px_13.ImageColor3 = Color3.fromRGB(30, 30, 30)
-SpiralHub.TextButton_Roundify_2px_13.ScaleType = Enum.ScaleType.Slice
-SpiralHub.TextButton_Roundify_2px_13.SliceCenter = Rect.new(100, 100, 100, 100)
-SpiralHub.TextButton_Roundify_2px_13.SliceScale = 0.020
-
-SpiralHub.Scripts_10.Name = "Scripts"
-SpiralHub.Scripts_10.Parent = SpiralHub.Tabs
-SpiralHub.Scripts_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpiralHub.Scripts_10.BackgroundTransparency = 1.000
-SpiralHub.Scripts_10.BorderSizePixel = 0
-SpiralHub.Scripts_10.Position = UDim2.new(0, 0, 0.000991555862, 0)
-SpiralHub.Scripts_10.Size = UDim2.new(0, 500, 0, 229)
+SpiralHub.Scripts_14.Name = "Scripts"
+SpiralHub.Scripts_14.Parent = SpiralHub.Tabs
+SpiralHub.Scripts_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.Scripts_14.BackgroundTransparency = 1.000
+SpiralHub.Scripts_14.BorderSizePixel = 0
+SpiralHub.Scripts_14.Position = UDim2.new(0, 0, 0.000991555862, 0)
+SpiralHub.Scripts_14.Size = UDim2.new(0, 500, 0, 229)
 
 SpiralHub.General.Name = "General"
-SpiralHub.General.Parent = SpiralHub.Scripts_10
+SpiralHub.General.Parent = SpiralHub.Scripts_14
 SpiralHub.General.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.General.BackgroundTransparency = 1.000
 SpiralHub.General.BorderSizePixel = 0
@@ -1188,21 +1491,21 @@ SpiralHub.inf.Text = "Infinite Yield"
 SpiralHub.inf.TextColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.inf.TextSize = 14.000
 
-SpiralHub.TextButton_Roundify_2px_14.Name = "TextButton_Roundify_2px"
-SpiralHub.TextButton_Roundify_2px_14.Parent = SpiralHub.inf
-SpiralHub.TextButton_Roundify_2px_14.Active = true
-SpiralHub.TextButton_Roundify_2px_14.AnchorPoint = Vector2.new(0.5, 0.5)
-SpiralHub.TextButton_Roundify_2px_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpiralHub.TextButton_Roundify_2px_14.BackgroundTransparency = 1.000
-SpiralHub.TextButton_Roundify_2px_14.Position = UDim2.new(0.5, 0, 0.5, 0)
-SpiralHub.TextButton_Roundify_2px_14.Selectable = true
-SpiralHub.TextButton_Roundify_2px_14.Size = UDim2.new(1, 0, 1, 0)
-SpiralHub.TextButton_Roundify_2px_14.ZIndex = 2
-SpiralHub.TextButton_Roundify_2px_14.Image = "rbxassetid://3570695787"
-SpiralHub.TextButton_Roundify_2px_14.ImageColor3 = Color3.fromRGB(30, 30, 30)
-SpiralHub.TextButton_Roundify_2px_14.ScaleType = Enum.ScaleType.Slice
-SpiralHub.TextButton_Roundify_2px_14.SliceCenter = Rect.new(100, 100, 100, 100)
-SpiralHub.TextButton_Roundify_2px_14.SliceScale = 0.020
+SpiralHub.TextButton_Roundify_2px_17.Name = "TextButton_Roundify_2px"
+SpiralHub.TextButton_Roundify_2px_17.Parent = SpiralHub.inf
+SpiralHub.TextButton_Roundify_2px_17.Active = true
+SpiralHub.TextButton_Roundify_2px_17.AnchorPoint = Vector2.new(0.5, 0.5)
+SpiralHub.TextButton_Roundify_2px_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_Roundify_2px_17.BackgroundTransparency = 1.000
+SpiralHub.TextButton_Roundify_2px_17.Position = UDim2.new(0.5, 0, 0.5, 0)
+SpiralHub.TextButton_Roundify_2px_17.Selectable = true
+SpiralHub.TextButton_Roundify_2px_17.Size = UDim2.new(1, 0, 1, 0)
+SpiralHub.TextButton_Roundify_2px_17.ZIndex = 2
+SpiralHub.TextButton_Roundify_2px_17.Image = "rbxassetid://3570695787"
+SpiralHub.TextButton_Roundify_2px_17.ImageColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_Roundify_2px_17.ScaleType = Enum.ScaleType.Slice
+SpiralHub.TextButton_Roundify_2px_17.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.TextButton_Roundify_2px_17.SliceScale = 0.020
 
 SpiralHub.Tip.Name = "Tip"
 SpiralHub.Tip.Parent = SpiralHub.inf
@@ -1246,21 +1549,21 @@ SpiralHub.antikick.Text = "Anti Kick / Ban"
 SpiralHub.antikick.TextColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.antikick.TextSize = 14.000
 
-SpiralHub.TextButton_Roundify_2px_15.Name = "TextButton_Roundify_2px"
-SpiralHub.TextButton_Roundify_2px_15.Parent = SpiralHub.antikick
-SpiralHub.TextButton_Roundify_2px_15.Active = true
-SpiralHub.TextButton_Roundify_2px_15.AnchorPoint = Vector2.new(0.5, 0.5)
-SpiralHub.TextButton_Roundify_2px_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpiralHub.TextButton_Roundify_2px_15.BackgroundTransparency = 1.000
-SpiralHub.TextButton_Roundify_2px_15.Position = UDim2.new(0.5, 0, 0.5, 0)
-SpiralHub.TextButton_Roundify_2px_15.Selectable = true
-SpiralHub.TextButton_Roundify_2px_15.Size = UDim2.new(1, 0, 1, 0)
-SpiralHub.TextButton_Roundify_2px_15.ZIndex = 2
-SpiralHub.TextButton_Roundify_2px_15.Image = "rbxassetid://3570695787"
-SpiralHub.TextButton_Roundify_2px_15.ImageColor3 = Color3.fromRGB(30, 30, 30)
-SpiralHub.TextButton_Roundify_2px_15.ScaleType = Enum.ScaleType.Slice
-SpiralHub.TextButton_Roundify_2px_15.SliceCenter = Rect.new(100, 100, 100, 100)
-SpiralHub.TextButton_Roundify_2px_15.SliceScale = 0.020
+SpiralHub.TextButton_Roundify_2px_18.Name = "TextButton_Roundify_2px"
+SpiralHub.TextButton_Roundify_2px_18.Parent = SpiralHub.antikick
+SpiralHub.TextButton_Roundify_2px_18.Active = true
+SpiralHub.TextButton_Roundify_2px_18.AnchorPoint = Vector2.new(0.5, 0.5)
+SpiralHub.TextButton_Roundify_2px_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_Roundify_2px_18.BackgroundTransparency = 1.000
+SpiralHub.TextButton_Roundify_2px_18.Position = UDim2.new(0.5, 0, 0.5, 0)
+SpiralHub.TextButton_Roundify_2px_18.Selectable = true
+SpiralHub.TextButton_Roundify_2px_18.Size = UDim2.new(1, 0, 1, 0)
+SpiralHub.TextButton_Roundify_2px_18.ZIndex = 2
+SpiralHub.TextButton_Roundify_2px_18.Image = "rbxassetid://3570695787"
+SpiralHub.TextButton_Roundify_2px_18.ImageColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_Roundify_2px_18.ScaleType = Enum.ScaleType.Slice
+SpiralHub.TextButton_Roundify_2px_18.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.TextButton_Roundify_2px_18.SliceScale = 0.020
 
 SpiralHub.Tip_2.Name = "Tip"
 SpiralHub.Tip_2.Parent = SpiralHub.antikick
@@ -1304,21 +1607,21 @@ SpiralHub.fullbright.Text = "Fullbright"
 SpiralHub.fullbright.TextColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.fullbright.TextSize = 14.000
 
-SpiralHub.TextButton_Roundify_2px_16.Name = "TextButton_Roundify_2px"
-SpiralHub.TextButton_Roundify_2px_16.Parent = SpiralHub.fullbright
-SpiralHub.TextButton_Roundify_2px_16.Active = true
-SpiralHub.TextButton_Roundify_2px_16.AnchorPoint = Vector2.new(0.5, 0.5)
-SpiralHub.TextButton_Roundify_2px_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpiralHub.TextButton_Roundify_2px_16.BackgroundTransparency = 1.000
-SpiralHub.TextButton_Roundify_2px_16.Position = UDim2.new(0.5, 0, 0.5, 0)
-SpiralHub.TextButton_Roundify_2px_16.Selectable = true
-SpiralHub.TextButton_Roundify_2px_16.Size = UDim2.new(1, 0, 1, 0)
-SpiralHub.TextButton_Roundify_2px_16.ZIndex = 2
-SpiralHub.TextButton_Roundify_2px_16.Image = "rbxassetid://3570695787"
-SpiralHub.TextButton_Roundify_2px_16.ImageColor3 = Color3.fromRGB(30, 30, 30)
-SpiralHub.TextButton_Roundify_2px_16.ScaleType = Enum.ScaleType.Slice
-SpiralHub.TextButton_Roundify_2px_16.SliceCenter = Rect.new(100, 100, 100, 100)
-SpiralHub.TextButton_Roundify_2px_16.SliceScale = 0.020
+SpiralHub.TextButton_Roundify_2px_19.Name = "TextButton_Roundify_2px"
+SpiralHub.TextButton_Roundify_2px_19.Parent = SpiralHub.fullbright
+SpiralHub.TextButton_Roundify_2px_19.Active = true
+SpiralHub.TextButton_Roundify_2px_19.AnchorPoint = Vector2.new(0.5, 0.5)
+SpiralHub.TextButton_Roundify_2px_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_Roundify_2px_19.BackgroundTransparency = 1.000
+SpiralHub.TextButton_Roundify_2px_19.Position = UDim2.new(0.5, 0, 0.5, 0)
+SpiralHub.TextButton_Roundify_2px_19.Selectable = true
+SpiralHub.TextButton_Roundify_2px_19.Size = UDim2.new(1, 0, 1, 0)
+SpiralHub.TextButton_Roundify_2px_19.ZIndex = 2
+SpiralHub.TextButton_Roundify_2px_19.Image = "rbxassetid://3570695787"
+SpiralHub.TextButton_Roundify_2px_19.ImageColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_Roundify_2px_19.ScaleType = Enum.ScaleType.Slice
+SpiralHub.TextButton_Roundify_2px_19.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.TextButton_Roundify_2px_19.SliceScale = 0.020
 
 SpiralHub.Tip_3.Name = "Tip"
 SpiralHub.Tip_3.Parent = SpiralHub.fullbright
@@ -1362,21 +1665,21 @@ SpiralHub.equip.Text = "Equip All Tools"
 SpiralHub.equip.TextColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.equip.TextSize = 14.000
 
-SpiralHub.TextButton_Roundify_2px_17.Name = "TextButton_Roundify_2px"
-SpiralHub.TextButton_Roundify_2px_17.Parent = SpiralHub.equip
-SpiralHub.TextButton_Roundify_2px_17.Active = true
-SpiralHub.TextButton_Roundify_2px_17.AnchorPoint = Vector2.new(0.5, 0.5)
-SpiralHub.TextButton_Roundify_2px_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpiralHub.TextButton_Roundify_2px_17.BackgroundTransparency = 1.000
-SpiralHub.TextButton_Roundify_2px_17.Position = UDim2.new(0.5, 0, 0.5, 0)
-SpiralHub.TextButton_Roundify_2px_17.Selectable = true
-SpiralHub.TextButton_Roundify_2px_17.Size = UDim2.new(1, 0, 1, 0)
-SpiralHub.TextButton_Roundify_2px_17.ZIndex = 2
-SpiralHub.TextButton_Roundify_2px_17.Image = "rbxassetid://3570695787"
-SpiralHub.TextButton_Roundify_2px_17.ImageColor3 = Color3.fromRGB(30, 30, 30)
-SpiralHub.TextButton_Roundify_2px_17.ScaleType = Enum.ScaleType.Slice
-SpiralHub.TextButton_Roundify_2px_17.SliceCenter = Rect.new(100, 100, 100, 100)
-SpiralHub.TextButton_Roundify_2px_17.SliceScale = 0.020
+SpiralHub.TextButton_Roundify_2px_20.Name = "TextButton_Roundify_2px"
+SpiralHub.TextButton_Roundify_2px_20.Parent = SpiralHub.equip
+SpiralHub.TextButton_Roundify_2px_20.Active = true
+SpiralHub.TextButton_Roundify_2px_20.AnchorPoint = Vector2.new(0.5, 0.5)
+SpiralHub.TextButton_Roundify_2px_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_Roundify_2px_20.BackgroundTransparency = 1.000
+SpiralHub.TextButton_Roundify_2px_20.Position = UDim2.new(0.5, 0, 0.5, 0)
+SpiralHub.TextButton_Roundify_2px_20.Selectable = true
+SpiralHub.TextButton_Roundify_2px_20.Size = UDim2.new(1, 0, 1, 0)
+SpiralHub.TextButton_Roundify_2px_20.ZIndex = 2
+SpiralHub.TextButton_Roundify_2px_20.Image = "rbxassetid://3570695787"
+SpiralHub.TextButton_Roundify_2px_20.ImageColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_Roundify_2px_20.ScaleType = Enum.ScaleType.Slice
+SpiralHub.TextButton_Roundify_2px_20.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.TextButton_Roundify_2px_20.SliceScale = 0.020
 
 SpiralHub.Tip_4.Name = "Tip"
 SpiralHub.Tip_4.Parent = SpiralHub.equip
@@ -1420,21 +1723,21 @@ SpiralHub.discord.Text = "Discord Emotes"
 SpiralHub.discord.TextColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.discord.TextSize = 14.000
 
-SpiralHub.TextButton_Roundify_2px_18.Name = "TextButton_Roundify_2px"
-SpiralHub.TextButton_Roundify_2px_18.Parent = SpiralHub.discord
-SpiralHub.TextButton_Roundify_2px_18.Active = true
-SpiralHub.TextButton_Roundify_2px_18.AnchorPoint = Vector2.new(0.5, 0.5)
-SpiralHub.TextButton_Roundify_2px_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpiralHub.TextButton_Roundify_2px_18.BackgroundTransparency = 1.000
-SpiralHub.TextButton_Roundify_2px_18.Position = UDim2.new(0.5, 0, 0.5, 0)
-SpiralHub.TextButton_Roundify_2px_18.Selectable = true
-SpiralHub.TextButton_Roundify_2px_18.Size = UDim2.new(1, 0, 1, 0)
-SpiralHub.TextButton_Roundify_2px_18.ZIndex = 2
-SpiralHub.TextButton_Roundify_2px_18.Image = "rbxassetid://3570695787"
-SpiralHub.TextButton_Roundify_2px_18.ImageColor3 = Color3.fromRGB(30, 30, 30)
-SpiralHub.TextButton_Roundify_2px_18.ScaleType = Enum.ScaleType.Slice
-SpiralHub.TextButton_Roundify_2px_18.SliceCenter = Rect.new(100, 100, 100, 100)
-SpiralHub.TextButton_Roundify_2px_18.SliceScale = 0.020
+SpiralHub.TextButton_Roundify_2px_21.Name = "TextButton_Roundify_2px"
+SpiralHub.TextButton_Roundify_2px_21.Parent = SpiralHub.discord
+SpiralHub.TextButton_Roundify_2px_21.Active = true
+SpiralHub.TextButton_Roundify_2px_21.AnchorPoint = Vector2.new(0.5, 0.5)
+SpiralHub.TextButton_Roundify_2px_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_Roundify_2px_21.BackgroundTransparency = 1.000
+SpiralHub.TextButton_Roundify_2px_21.Position = UDim2.new(0.5, 0, 0.5, 0)
+SpiralHub.TextButton_Roundify_2px_21.Selectable = true
+SpiralHub.TextButton_Roundify_2px_21.Size = UDim2.new(1, 0, 1, 0)
+SpiralHub.TextButton_Roundify_2px_21.ZIndex = 2
+SpiralHub.TextButton_Roundify_2px_21.Image = "rbxassetid://3570695787"
+SpiralHub.TextButton_Roundify_2px_21.ImageColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_Roundify_2px_21.ScaleType = Enum.ScaleType.Slice
+SpiralHub.TextButton_Roundify_2px_21.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.TextButton_Roundify_2px_21.SliceScale = 0.020
 
 SpiralHub.Tip_5.Name = "Tip"
 SpiralHub.Tip_5.Parent = SpiralHub.discord
@@ -1503,21 +1806,21 @@ SpiralHub.chatbypass.Text = "Chat Bypass"
 SpiralHub.chatbypass.TextColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.chatbypass.TextSize = 14.000
 
-SpiralHub.TextButton_Roundify_2px_19.Name = "TextButton_Roundify_2px"
-SpiralHub.TextButton_Roundify_2px_19.Parent = SpiralHub.chatbypass
-SpiralHub.TextButton_Roundify_2px_19.Active = true
-SpiralHub.TextButton_Roundify_2px_19.AnchorPoint = Vector2.new(0.5, 0.5)
-SpiralHub.TextButton_Roundify_2px_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpiralHub.TextButton_Roundify_2px_19.BackgroundTransparency = 1.000
-SpiralHub.TextButton_Roundify_2px_19.Position = UDim2.new(0.5, 0, 0.5, 0)
-SpiralHub.TextButton_Roundify_2px_19.Selectable = true
-SpiralHub.TextButton_Roundify_2px_19.Size = UDim2.new(1, 0, 1, 0)
-SpiralHub.TextButton_Roundify_2px_19.ZIndex = 2
-SpiralHub.TextButton_Roundify_2px_19.Image = "rbxassetid://3570695787"
-SpiralHub.TextButton_Roundify_2px_19.ImageColor3 = Color3.fromRGB(30, 30, 30)
-SpiralHub.TextButton_Roundify_2px_19.ScaleType = Enum.ScaleType.Slice
-SpiralHub.TextButton_Roundify_2px_19.SliceCenter = Rect.new(100, 100, 100, 100)
-SpiralHub.TextButton_Roundify_2px_19.SliceScale = 0.020
+SpiralHub.TextButton_Roundify_2px_22.Name = "TextButton_Roundify_2px"
+SpiralHub.TextButton_Roundify_2px_22.Parent = SpiralHub.chatbypass
+SpiralHub.TextButton_Roundify_2px_22.Active = true
+SpiralHub.TextButton_Roundify_2px_22.AnchorPoint = Vector2.new(0.5, 0.5)
+SpiralHub.TextButton_Roundify_2px_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_Roundify_2px_22.BackgroundTransparency = 1.000
+SpiralHub.TextButton_Roundify_2px_22.Position = UDim2.new(0.5, 0, 0.5, 0)
+SpiralHub.TextButton_Roundify_2px_22.Selectable = true
+SpiralHub.TextButton_Roundify_2px_22.Size = UDim2.new(1, 0, 1, 0)
+SpiralHub.TextButton_Roundify_2px_22.ZIndex = 2
+SpiralHub.TextButton_Roundify_2px_22.Image = "rbxassetid://3570695787"
+SpiralHub.TextButton_Roundify_2px_22.ImageColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_Roundify_2px_22.ScaleType = Enum.ScaleType.Slice
+SpiralHub.TextButton_Roundify_2px_22.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.TextButton_Roundify_2px_22.SliceScale = 0.020
 
 SpiralHub.Tip_6.Name = "Tip"
 SpiralHub.Tip_6.Parent = SpiralHub.chatbypass
@@ -1561,21 +1864,21 @@ SpiralHub.InvisFling.Text = "Invisible Fling"
 SpiralHub.InvisFling.TextColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.InvisFling.TextSize = 14.000
 
-SpiralHub.TextButton_Roundify_2px_20.Name = "TextButton_Roundify_2px"
-SpiralHub.TextButton_Roundify_2px_20.Parent = SpiralHub.InvisFling
-SpiralHub.TextButton_Roundify_2px_20.Active = true
-SpiralHub.TextButton_Roundify_2px_20.AnchorPoint = Vector2.new(0.5, 0.5)
-SpiralHub.TextButton_Roundify_2px_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpiralHub.TextButton_Roundify_2px_20.BackgroundTransparency = 1.000
-SpiralHub.TextButton_Roundify_2px_20.Position = UDim2.new(0.5, 0, 0.5, 0)
-SpiralHub.TextButton_Roundify_2px_20.Selectable = true
-SpiralHub.TextButton_Roundify_2px_20.Size = UDim2.new(1, 0, 1, 0)
-SpiralHub.TextButton_Roundify_2px_20.ZIndex = 2
-SpiralHub.TextButton_Roundify_2px_20.Image = "rbxassetid://3570695787"
-SpiralHub.TextButton_Roundify_2px_20.ImageColor3 = Color3.fromRGB(30, 30, 30)
-SpiralHub.TextButton_Roundify_2px_20.ScaleType = Enum.ScaleType.Slice
-SpiralHub.TextButton_Roundify_2px_20.SliceCenter = Rect.new(100, 100, 100, 100)
-SpiralHub.TextButton_Roundify_2px_20.SliceScale = 0.020
+SpiralHub.TextButton_Roundify_2px_23.Name = "TextButton_Roundify_2px"
+SpiralHub.TextButton_Roundify_2px_23.Parent = SpiralHub.InvisFling
+SpiralHub.TextButton_Roundify_2px_23.Active = true
+SpiralHub.TextButton_Roundify_2px_23.AnchorPoint = Vector2.new(0.5, 0.5)
+SpiralHub.TextButton_Roundify_2px_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_Roundify_2px_23.BackgroundTransparency = 1.000
+SpiralHub.TextButton_Roundify_2px_23.Position = UDim2.new(0.5, 0, 0.5, 0)
+SpiralHub.TextButton_Roundify_2px_23.Selectable = true
+SpiralHub.TextButton_Roundify_2px_23.Size = UDim2.new(1, 0, 1, 0)
+SpiralHub.TextButton_Roundify_2px_23.ZIndex = 2
+SpiralHub.TextButton_Roundify_2px_23.Image = "rbxassetid://3570695787"
+SpiralHub.TextButton_Roundify_2px_23.ImageColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_Roundify_2px_23.ScaleType = Enum.ScaleType.Slice
+SpiralHub.TextButton_Roundify_2px_23.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.TextButton_Roundify_2px_23.SliceScale = 0.020
 
 SpiralHub.Tip_7.Name = "Tip"
 SpiralHub.Tip_7.Parent = SpiralHub.InvisFling
@@ -1619,21 +1922,21 @@ SpiralHub.godmode.Text = "GodMode (GUI)"
 SpiralHub.godmode.TextColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.godmode.TextSize = 14.000
 
-SpiralHub.TextButton_Roundify_2px_21.Name = "TextButton_Roundify_2px"
-SpiralHub.TextButton_Roundify_2px_21.Parent = SpiralHub.godmode
-SpiralHub.TextButton_Roundify_2px_21.Active = true
-SpiralHub.TextButton_Roundify_2px_21.AnchorPoint = Vector2.new(0.5, 0.5)
-SpiralHub.TextButton_Roundify_2px_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpiralHub.TextButton_Roundify_2px_21.BackgroundTransparency = 1.000
-SpiralHub.TextButton_Roundify_2px_21.Position = UDim2.new(0.5, 0, 0.5, 0)
-SpiralHub.TextButton_Roundify_2px_21.Selectable = true
-SpiralHub.TextButton_Roundify_2px_21.Size = UDim2.new(1, 0, 1, 0)
-SpiralHub.TextButton_Roundify_2px_21.ZIndex = 2
-SpiralHub.TextButton_Roundify_2px_21.Image = "rbxassetid://3570695787"
-SpiralHub.TextButton_Roundify_2px_21.ImageColor3 = Color3.fromRGB(30, 30, 30)
-SpiralHub.TextButton_Roundify_2px_21.ScaleType = Enum.ScaleType.Slice
-SpiralHub.TextButton_Roundify_2px_21.SliceCenter = Rect.new(100, 100, 100, 100)
-SpiralHub.TextButton_Roundify_2px_21.SliceScale = 0.020
+SpiralHub.TextButton_Roundify_2px_24.Name = "TextButton_Roundify_2px"
+SpiralHub.TextButton_Roundify_2px_24.Parent = SpiralHub.godmode
+SpiralHub.TextButton_Roundify_2px_24.Active = true
+SpiralHub.TextButton_Roundify_2px_24.AnchorPoint = Vector2.new(0.5, 0.5)
+SpiralHub.TextButton_Roundify_2px_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_Roundify_2px_24.BackgroundTransparency = 1.000
+SpiralHub.TextButton_Roundify_2px_24.Position = UDim2.new(0.5, 0, 0.5, 0)
+SpiralHub.TextButton_Roundify_2px_24.Selectable = true
+SpiralHub.TextButton_Roundify_2px_24.Size = UDim2.new(1, 0, 1, 0)
+SpiralHub.TextButton_Roundify_2px_24.ZIndex = 2
+SpiralHub.TextButton_Roundify_2px_24.Image = "rbxassetid://3570695787"
+SpiralHub.TextButton_Roundify_2px_24.ImageColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_Roundify_2px_24.ScaleType = Enum.ScaleType.Slice
+SpiralHub.TextButton_Roundify_2px_24.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.TextButton_Roundify_2px_24.SliceScale = 0.020
 
 SpiralHub.Tip_8.Name = "Tip"
 SpiralHub.Tip_8.Parent = SpiralHub.godmode
@@ -1677,21 +1980,21 @@ SpiralHub.OwlHub.Text = "Owl Hub"
 SpiralHub.OwlHub.TextColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.OwlHub.TextSize = 14.000
 
-SpiralHub.TextButton_Roundify_2px_22.Name = "TextButton_Roundify_2px"
-SpiralHub.TextButton_Roundify_2px_22.Parent = SpiralHub.OwlHub
-SpiralHub.TextButton_Roundify_2px_22.Active = true
-SpiralHub.TextButton_Roundify_2px_22.AnchorPoint = Vector2.new(0.5, 0.5)
-SpiralHub.TextButton_Roundify_2px_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpiralHub.TextButton_Roundify_2px_22.BackgroundTransparency = 1.000
-SpiralHub.TextButton_Roundify_2px_22.Position = UDim2.new(0.5, 0, 0.5, 0)
-SpiralHub.TextButton_Roundify_2px_22.Selectable = true
-SpiralHub.TextButton_Roundify_2px_22.Size = UDim2.new(1, 0, 1, 0)
-SpiralHub.TextButton_Roundify_2px_22.ZIndex = 2
-SpiralHub.TextButton_Roundify_2px_22.Image = "rbxassetid://3570695787"
-SpiralHub.TextButton_Roundify_2px_22.ImageColor3 = Color3.fromRGB(30, 30, 30)
-SpiralHub.TextButton_Roundify_2px_22.ScaleType = Enum.ScaleType.Slice
-SpiralHub.TextButton_Roundify_2px_22.SliceCenter = Rect.new(100, 100, 100, 100)
-SpiralHub.TextButton_Roundify_2px_22.SliceScale = 0.020
+SpiralHub.TextButton_Roundify_2px_25.Name = "TextButton_Roundify_2px"
+SpiralHub.TextButton_Roundify_2px_25.Parent = SpiralHub.OwlHub
+SpiralHub.TextButton_Roundify_2px_25.Active = true
+SpiralHub.TextButton_Roundify_2px_25.AnchorPoint = Vector2.new(0.5, 0.5)
+SpiralHub.TextButton_Roundify_2px_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_Roundify_2px_25.BackgroundTransparency = 1.000
+SpiralHub.TextButton_Roundify_2px_25.Position = UDim2.new(0.5, 0, 0.5, 0)
+SpiralHub.TextButton_Roundify_2px_25.Selectable = true
+SpiralHub.TextButton_Roundify_2px_25.Size = UDim2.new(1, 0, 1, 0)
+SpiralHub.TextButton_Roundify_2px_25.ZIndex = 2
+SpiralHub.TextButton_Roundify_2px_25.Image = "rbxassetid://3570695787"
+SpiralHub.TextButton_Roundify_2px_25.ImageColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_Roundify_2px_25.ScaleType = Enum.ScaleType.Slice
+SpiralHub.TextButton_Roundify_2px_25.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.TextButton_Roundify_2px_25.SliceScale = 0.020
 
 SpiralHub.Tip_9.Name = "Tip"
 SpiralHub.Tip_9.Parent = SpiralHub.OwlHub
@@ -1735,21 +2038,21 @@ SpiralHub.graphics.Text = "Ultra Graphics"
 SpiralHub.graphics.TextColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.graphics.TextSize = 14.000
 
-SpiralHub.TextButton_Roundify_2px_23.Name = "TextButton_Roundify_2px"
-SpiralHub.TextButton_Roundify_2px_23.Parent = SpiralHub.graphics
-SpiralHub.TextButton_Roundify_2px_23.Active = true
-SpiralHub.TextButton_Roundify_2px_23.AnchorPoint = Vector2.new(0.5, 0.5)
-SpiralHub.TextButton_Roundify_2px_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpiralHub.TextButton_Roundify_2px_23.BackgroundTransparency = 1.000
-SpiralHub.TextButton_Roundify_2px_23.Position = UDim2.new(0.5, 0, 0.5, 0)
-SpiralHub.TextButton_Roundify_2px_23.Selectable = true
-SpiralHub.TextButton_Roundify_2px_23.Size = UDim2.new(1, 0, 1, 0)
-SpiralHub.TextButton_Roundify_2px_23.ZIndex = 2
-SpiralHub.TextButton_Roundify_2px_23.Image = "rbxassetid://3570695787"
-SpiralHub.TextButton_Roundify_2px_23.ImageColor3 = Color3.fromRGB(30, 30, 30)
-SpiralHub.TextButton_Roundify_2px_23.ScaleType = Enum.ScaleType.Slice
-SpiralHub.TextButton_Roundify_2px_23.SliceCenter = Rect.new(100, 100, 100, 100)
-SpiralHub.TextButton_Roundify_2px_23.SliceScale = 0.020
+SpiralHub.TextButton_Roundify_2px_26.Name = "TextButton_Roundify_2px"
+SpiralHub.TextButton_Roundify_2px_26.Parent = SpiralHub.graphics
+SpiralHub.TextButton_Roundify_2px_26.Active = true
+SpiralHub.TextButton_Roundify_2px_26.AnchorPoint = Vector2.new(0.5, 0.5)
+SpiralHub.TextButton_Roundify_2px_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_Roundify_2px_26.BackgroundTransparency = 1.000
+SpiralHub.TextButton_Roundify_2px_26.Position = UDim2.new(0.5, 0, 0.5, 0)
+SpiralHub.TextButton_Roundify_2px_26.Selectable = true
+SpiralHub.TextButton_Roundify_2px_26.Size = UDim2.new(1, 0, 1, 0)
+SpiralHub.TextButton_Roundify_2px_26.ZIndex = 2
+SpiralHub.TextButton_Roundify_2px_26.Image = "rbxassetid://3570695787"
+SpiralHub.TextButton_Roundify_2px_26.ImageColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_Roundify_2px_26.ScaleType = Enum.ScaleType.Slice
+SpiralHub.TextButton_Roundify_2px_26.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.TextButton_Roundify_2px_26.SliceScale = 0.020
 
 SpiralHub.Tip_10.Name = "Tip"
 SpiralHub.Tip_10.Parent = SpiralHub.graphics
@@ -1793,21 +2096,21 @@ SpiralHub.dance.Text = "FE Dances"
 SpiralHub.dance.TextColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.dance.TextSize = 14.000
 
-SpiralHub.TextButton_Roundify_2px_24.Name = "TextButton_Roundify_2px"
-SpiralHub.TextButton_Roundify_2px_24.Parent = SpiralHub.dance
-SpiralHub.TextButton_Roundify_2px_24.Active = true
-SpiralHub.TextButton_Roundify_2px_24.AnchorPoint = Vector2.new(0.5, 0.5)
-SpiralHub.TextButton_Roundify_2px_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpiralHub.TextButton_Roundify_2px_24.BackgroundTransparency = 1.000
-SpiralHub.TextButton_Roundify_2px_24.Position = UDim2.new(0.5, 0, 0.5, 0)
-SpiralHub.TextButton_Roundify_2px_24.Selectable = true
-SpiralHub.TextButton_Roundify_2px_24.Size = UDim2.new(1, 0, 1, 0)
-SpiralHub.TextButton_Roundify_2px_24.ZIndex = 2
-SpiralHub.TextButton_Roundify_2px_24.Image = "rbxassetid://3570695787"
-SpiralHub.TextButton_Roundify_2px_24.ImageColor3 = Color3.fromRGB(30, 30, 30)
-SpiralHub.TextButton_Roundify_2px_24.ScaleType = Enum.ScaleType.Slice
-SpiralHub.TextButton_Roundify_2px_24.SliceCenter = Rect.new(100, 100, 100, 100)
-SpiralHub.TextButton_Roundify_2px_24.SliceScale = 0.020
+SpiralHub.TextButton_Roundify_2px_27.Name = "TextButton_Roundify_2px"
+SpiralHub.TextButton_Roundify_2px_27.Parent = SpiralHub.dance
+SpiralHub.TextButton_Roundify_2px_27.Active = true
+SpiralHub.TextButton_Roundify_2px_27.AnchorPoint = Vector2.new(0.5, 0.5)
+SpiralHub.TextButton_Roundify_2px_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_Roundify_2px_27.BackgroundTransparency = 1.000
+SpiralHub.TextButton_Roundify_2px_27.Position = UDim2.new(0.5, 0, 0.5, 0)
+SpiralHub.TextButton_Roundify_2px_27.Selectable = true
+SpiralHub.TextButton_Roundify_2px_27.Size = UDim2.new(1, 0, 1, 0)
+SpiralHub.TextButton_Roundify_2px_27.ZIndex = 2
+SpiralHub.TextButton_Roundify_2px_27.Image = "rbxassetid://3570695787"
+SpiralHub.TextButton_Roundify_2px_27.ImageColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_Roundify_2px_27.ScaleType = Enum.ScaleType.Slice
+SpiralHub.TextButton_Roundify_2px_27.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.TextButton_Roundify_2px_27.SliceScale = 0.020
 
 SpiralHub.Tip_11.Name = "Tip"
 SpiralHub.Tip_11.Parent = SpiralHub.dance
@@ -1851,21 +2154,21 @@ SpiralHub.aimbot.Text = "Aim Bot"
 SpiralHub.aimbot.TextColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.aimbot.TextSize = 14.000
 
-SpiralHub.TextButton_Roundify_2px_25.Name = "TextButton_Roundify_2px"
-SpiralHub.TextButton_Roundify_2px_25.Parent = SpiralHub.aimbot
-SpiralHub.TextButton_Roundify_2px_25.Active = true
-SpiralHub.TextButton_Roundify_2px_25.AnchorPoint = Vector2.new(0.5, 0.5)
-SpiralHub.TextButton_Roundify_2px_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpiralHub.TextButton_Roundify_2px_25.BackgroundTransparency = 1.000
-SpiralHub.TextButton_Roundify_2px_25.Position = UDim2.new(0.5, 0, 0.5, 0)
-SpiralHub.TextButton_Roundify_2px_25.Selectable = true
-SpiralHub.TextButton_Roundify_2px_25.Size = UDim2.new(1, 0, 1, 0)
-SpiralHub.TextButton_Roundify_2px_25.ZIndex = 2
-SpiralHub.TextButton_Roundify_2px_25.Image = "rbxassetid://3570695787"
-SpiralHub.TextButton_Roundify_2px_25.ImageColor3 = Color3.fromRGB(30, 30, 30)
-SpiralHub.TextButton_Roundify_2px_25.ScaleType = Enum.ScaleType.Slice
-SpiralHub.TextButton_Roundify_2px_25.SliceCenter = Rect.new(100, 100, 100, 100)
-SpiralHub.TextButton_Roundify_2px_25.SliceScale = 0.020
+SpiralHub.TextButton_Roundify_2px_28.Name = "TextButton_Roundify_2px"
+SpiralHub.TextButton_Roundify_2px_28.Parent = SpiralHub.aimbot
+SpiralHub.TextButton_Roundify_2px_28.Active = true
+SpiralHub.TextButton_Roundify_2px_28.AnchorPoint = Vector2.new(0.5, 0.5)
+SpiralHub.TextButton_Roundify_2px_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_Roundify_2px_28.BackgroundTransparency = 1.000
+SpiralHub.TextButton_Roundify_2px_28.Position = UDim2.new(0.5, 0, 0.5, 0)
+SpiralHub.TextButton_Roundify_2px_28.Selectable = true
+SpiralHub.TextButton_Roundify_2px_28.Size = UDim2.new(1, 0, 1, 0)
+SpiralHub.TextButton_Roundify_2px_28.ZIndex = 2
+SpiralHub.TextButton_Roundify_2px_28.Image = "rbxassetid://3570695787"
+SpiralHub.TextButton_Roundify_2px_28.ImageColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_Roundify_2px_28.ScaleType = Enum.ScaleType.Slice
+SpiralHub.TextButton_Roundify_2px_28.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.TextButton_Roundify_2px_28.SliceScale = 0.020
 
 SpiralHub.Tip_12.Name = "Tip"
 SpiralHub.Tip_12.Parent = SpiralHub.aimbot
@@ -1909,21 +2212,21 @@ SpiralHub.chathaxx.Text = "Chat Haxx"
 SpiralHub.chathaxx.TextColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.chathaxx.TextSize = 14.000
 
-SpiralHub.TextButton_Roundify_2px_26.Name = "TextButton_Roundify_2px"
-SpiralHub.TextButton_Roundify_2px_26.Parent = SpiralHub.chathaxx
-SpiralHub.TextButton_Roundify_2px_26.Active = true
-SpiralHub.TextButton_Roundify_2px_26.AnchorPoint = Vector2.new(0.5, 0.5)
-SpiralHub.TextButton_Roundify_2px_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpiralHub.TextButton_Roundify_2px_26.BackgroundTransparency = 1.000
-SpiralHub.TextButton_Roundify_2px_26.Position = UDim2.new(0.5, 0, 0.5, 0)
-SpiralHub.TextButton_Roundify_2px_26.Selectable = true
-SpiralHub.TextButton_Roundify_2px_26.Size = UDim2.new(1, 0, 1, 0)
-SpiralHub.TextButton_Roundify_2px_26.ZIndex = 2
-SpiralHub.TextButton_Roundify_2px_26.Image = "rbxassetid://3570695787"
-SpiralHub.TextButton_Roundify_2px_26.ImageColor3 = Color3.fromRGB(30, 30, 30)
-SpiralHub.TextButton_Roundify_2px_26.ScaleType = Enum.ScaleType.Slice
-SpiralHub.TextButton_Roundify_2px_26.SliceCenter = Rect.new(100, 100, 100, 100)
-SpiralHub.TextButton_Roundify_2px_26.SliceScale = 0.020
+SpiralHub.TextButton_Roundify_2px_29.Name = "TextButton_Roundify_2px"
+SpiralHub.TextButton_Roundify_2px_29.Parent = SpiralHub.chathaxx
+SpiralHub.TextButton_Roundify_2px_29.Active = true
+SpiralHub.TextButton_Roundify_2px_29.AnchorPoint = Vector2.new(0.5, 0.5)
+SpiralHub.TextButton_Roundify_2px_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_Roundify_2px_29.BackgroundTransparency = 1.000
+SpiralHub.TextButton_Roundify_2px_29.Position = UDim2.new(0.5, 0, 0.5, 0)
+SpiralHub.TextButton_Roundify_2px_29.Selectable = true
+SpiralHub.TextButton_Roundify_2px_29.Size = UDim2.new(1, 0, 1, 0)
+SpiralHub.TextButton_Roundify_2px_29.ZIndex = 2
+SpiralHub.TextButton_Roundify_2px_29.Image = "rbxassetid://3570695787"
+SpiralHub.TextButton_Roundify_2px_29.ImageColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_Roundify_2px_29.ScaleType = Enum.ScaleType.Slice
+SpiralHub.TextButton_Roundify_2px_29.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.TextButton_Roundify_2px_29.SliceScale = 0.020
 
 SpiralHub.Tip_13.Name = "Tip"
 SpiralHub.Tip_13.Parent = SpiralHub.chathaxx
@@ -1967,21 +2270,21 @@ SpiralHub.darkhub.Text = "Dark Hub"
 SpiralHub.darkhub.TextColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.darkhub.TextSize = 14.000
 
-SpiralHub.TextButton_Roundify_2px_27.Name = "TextButton_Roundify_2px"
-SpiralHub.TextButton_Roundify_2px_27.Parent = SpiralHub.darkhub
-SpiralHub.TextButton_Roundify_2px_27.Active = true
-SpiralHub.TextButton_Roundify_2px_27.AnchorPoint = Vector2.new(0.5, 0.5)
-SpiralHub.TextButton_Roundify_2px_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpiralHub.TextButton_Roundify_2px_27.BackgroundTransparency = 1.000
-SpiralHub.TextButton_Roundify_2px_27.Position = UDim2.new(0.5, 0, 0.5, 0)
-SpiralHub.TextButton_Roundify_2px_27.Selectable = true
-SpiralHub.TextButton_Roundify_2px_27.Size = UDim2.new(1, 0, 1, 0)
-SpiralHub.TextButton_Roundify_2px_27.ZIndex = 2
-SpiralHub.TextButton_Roundify_2px_27.Image = "rbxassetid://3570695787"
-SpiralHub.TextButton_Roundify_2px_27.ImageColor3 = Color3.fromRGB(30, 30, 30)
-SpiralHub.TextButton_Roundify_2px_27.ScaleType = Enum.ScaleType.Slice
-SpiralHub.TextButton_Roundify_2px_27.SliceCenter = Rect.new(100, 100, 100, 100)
-SpiralHub.TextButton_Roundify_2px_27.SliceScale = 0.020
+SpiralHub.TextButton_Roundify_2px_30.Name = "TextButton_Roundify_2px"
+SpiralHub.TextButton_Roundify_2px_30.Parent = SpiralHub.darkhub
+SpiralHub.TextButton_Roundify_2px_30.Active = true
+SpiralHub.TextButton_Roundify_2px_30.AnchorPoint = Vector2.new(0.5, 0.5)
+SpiralHub.TextButton_Roundify_2px_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_Roundify_2px_30.BackgroundTransparency = 1.000
+SpiralHub.TextButton_Roundify_2px_30.Position = UDim2.new(0.5, 0, 0.5, 0)
+SpiralHub.TextButton_Roundify_2px_30.Selectable = true
+SpiralHub.TextButton_Roundify_2px_30.Size = UDim2.new(1, 0, 1, 0)
+SpiralHub.TextButton_Roundify_2px_30.ZIndex = 2
+SpiralHub.TextButton_Roundify_2px_30.Image = "rbxassetid://3570695787"
+SpiralHub.TextButton_Roundify_2px_30.ImageColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_Roundify_2px_30.ScaleType = Enum.ScaleType.Slice
+SpiralHub.TextButton_Roundify_2px_30.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.TextButton_Roundify_2px_30.SliceScale = 0.020
 
 SpiralHub.Tip_14.Name = "Tip"
 SpiralHub.Tip_14.Parent = SpiralHub.darkhub
@@ -2013,7 +2316,7 @@ SpiralHub.TextLabel_Roundify_2px_15.SliceCenter = Rect.new(100, 100, 100, 100)
 SpiralHub.TextLabel_Roundify_2px_15.SliceScale = 0.020
 
 SpiralHub.DaHood.Name = "DaHood"
-SpiralHub.DaHood.Parent = SpiralHub.Scripts_10
+SpiralHub.DaHood.Parent = SpiralHub.Scripts_14
 SpiralHub.DaHood.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.DaHood.BackgroundTransparency = 1.000
 SpiralHub.DaHood.BorderSizePixel = 0
@@ -2034,21 +2337,21 @@ SpiralHub.guis.Text = "Da Hood GUI"
 SpiralHub.guis.TextColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.guis.TextSize = 14.000
 
-SpiralHub.TextButton_Roundify_2px_28.Name = "TextButton_Roundify_2px"
-SpiralHub.TextButton_Roundify_2px_28.Parent = SpiralHub.guis
-SpiralHub.TextButton_Roundify_2px_28.Active = true
-SpiralHub.TextButton_Roundify_2px_28.AnchorPoint = Vector2.new(0.5, 0.5)
-SpiralHub.TextButton_Roundify_2px_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpiralHub.TextButton_Roundify_2px_28.BackgroundTransparency = 1.000
-SpiralHub.TextButton_Roundify_2px_28.Position = UDim2.new(0.5, 0, 0.5, 0)
-SpiralHub.TextButton_Roundify_2px_28.Selectable = true
-SpiralHub.TextButton_Roundify_2px_28.Size = UDim2.new(1, 0, 1, 0)
-SpiralHub.TextButton_Roundify_2px_28.ZIndex = 2
-SpiralHub.TextButton_Roundify_2px_28.Image = "rbxassetid://3570695787"
-SpiralHub.TextButton_Roundify_2px_28.ImageColor3 = Color3.fromRGB(30, 30, 30)
-SpiralHub.TextButton_Roundify_2px_28.ScaleType = Enum.ScaleType.Slice
-SpiralHub.TextButton_Roundify_2px_28.SliceCenter = Rect.new(100, 100, 100, 100)
-SpiralHub.TextButton_Roundify_2px_28.SliceScale = 0.020
+SpiralHub.TextButton_Roundify_2px_31.Name = "TextButton_Roundify_2px"
+SpiralHub.TextButton_Roundify_2px_31.Parent = SpiralHub.guis
+SpiralHub.TextButton_Roundify_2px_31.Active = true
+SpiralHub.TextButton_Roundify_2px_31.AnchorPoint = Vector2.new(0.5, 0.5)
+SpiralHub.TextButton_Roundify_2px_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_Roundify_2px_31.BackgroundTransparency = 1.000
+SpiralHub.TextButton_Roundify_2px_31.Position = UDim2.new(0.5, 0, 0.5, 0)
+SpiralHub.TextButton_Roundify_2px_31.Selectable = true
+SpiralHub.TextButton_Roundify_2px_31.Size = UDim2.new(1, 0, 1, 0)
+SpiralHub.TextButton_Roundify_2px_31.ZIndex = 2
+SpiralHub.TextButton_Roundify_2px_31.Image = "rbxassetid://3570695787"
+SpiralHub.TextButton_Roundify_2px_31.ImageColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_Roundify_2px_31.ScaleType = Enum.ScaleType.Slice
+SpiralHub.TextButton_Roundify_2px_31.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.TextButton_Roundify_2px_31.SliceScale = 0.020
 
 SpiralHub.Tip_15.Name = "Tip"
 SpiralHub.Tip_15.Parent = SpiralHub.guis
@@ -2105,7 +2408,7 @@ SpiralHub.TextLabel_Roundify_2px_17.SliceCenter = Rect.new(100, 100, 100, 100)
 SpiralHub.TextLabel_Roundify_2px_17.SliceScale = 0.020
 
 SpiralHub.Jailbreak.Name = "Jailbreak"
-SpiralHub.Jailbreak.Parent = SpiralHub.Scripts_10
+SpiralHub.Jailbreak.Parent = SpiralHub.Scripts_14
 SpiralHub.Jailbreak.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.Jailbreak.BackgroundTransparency = 1.000
 SpiralHub.Jailbreak.BorderSizePixel = 0
@@ -2126,21 +2429,21 @@ SpiralHub.rob.Text = "Auto Rob"
 SpiralHub.rob.TextColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.rob.TextSize = 14.000
 
-SpiralHub.TextButton_Roundify_2px_29.Name = "TextButton_Roundify_2px"
-SpiralHub.TextButton_Roundify_2px_29.Parent = SpiralHub.rob
-SpiralHub.TextButton_Roundify_2px_29.Active = true
-SpiralHub.TextButton_Roundify_2px_29.AnchorPoint = Vector2.new(0.5, 0.5)
-SpiralHub.TextButton_Roundify_2px_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpiralHub.TextButton_Roundify_2px_29.BackgroundTransparency = 1.000
-SpiralHub.TextButton_Roundify_2px_29.Position = UDim2.new(0.5, 0, 0.5, 0)
-SpiralHub.TextButton_Roundify_2px_29.Selectable = true
-SpiralHub.TextButton_Roundify_2px_29.Size = UDim2.new(1, 0, 1, 0)
-SpiralHub.TextButton_Roundify_2px_29.ZIndex = 2
-SpiralHub.TextButton_Roundify_2px_29.Image = "rbxassetid://3570695787"
-SpiralHub.TextButton_Roundify_2px_29.ImageColor3 = Color3.fromRGB(30, 30, 30)
-SpiralHub.TextButton_Roundify_2px_29.ScaleType = Enum.ScaleType.Slice
-SpiralHub.TextButton_Roundify_2px_29.SliceCenter = Rect.new(100, 100, 100, 100)
-SpiralHub.TextButton_Roundify_2px_29.SliceScale = 0.020
+SpiralHub.TextButton_Roundify_2px_32.Name = "TextButton_Roundify_2px"
+SpiralHub.TextButton_Roundify_2px_32.Parent = SpiralHub.rob
+SpiralHub.TextButton_Roundify_2px_32.Active = true
+SpiralHub.TextButton_Roundify_2px_32.AnchorPoint = Vector2.new(0.5, 0.5)
+SpiralHub.TextButton_Roundify_2px_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_Roundify_2px_32.BackgroundTransparency = 1.000
+SpiralHub.TextButton_Roundify_2px_32.Position = UDim2.new(0.5, 0, 0.5, 0)
+SpiralHub.TextButton_Roundify_2px_32.Selectable = true
+SpiralHub.TextButton_Roundify_2px_32.Size = UDim2.new(1, 0, 1, 0)
+SpiralHub.TextButton_Roundify_2px_32.ZIndex = 2
+SpiralHub.TextButton_Roundify_2px_32.Image = "rbxassetid://3570695787"
+SpiralHub.TextButton_Roundify_2px_32.ImageColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_Roundify_2px_32.ScaleType = Enum.ScaleType.Slice
+SpiralHub.TextButton_Roundify_2px_32.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.TextButton_Roundify_2px_32.SliceScale = 0.020
 
 SpiralHub.Tip_16.Name = "Tip"
 SpiralHub.Tip_16.Parent = SpiralHub.rob
@@ -2197,7 +2500,7 @@ SpiralHub.TextLabel_Roundify_2px_19.SliceCenter = Rect.new(100, 100, 100, 100)
 SpiralHub.TextLabel_Roundify_2px_19.SliceScale = 0.020
 
 SpiralHub.Strucid.Name = "Strucid"
-SpiralHub.Strucid.Parent = SpiralHub.Scripts_10
+SpiralHub.Strucid.Parent = SpiralHub.Scripts_14
 SpiralHub.Strucid.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.Strucid.BackgroundTransparency = 1.000
 SpiralHub.Strucid.BorderSizePixel = 0
@@ -2218,21 +2521,21 @@ SpiralHub.dark.Text = "Dark Hub"
 SpiralHub.dark.TextColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.dark.TextSize = 14.000
 
-SpiralHub.TextButton_Roundify_2px_30.Name = "TextButton_Roundify_2px"
-SpiralHub.TextButton_Roundify_2px_30.Parent = SpiralHub.dark
-SpiralHub.TextButton_Roundify_2px_30.Active = true
-SpiralHub.TextButton_Roundify_2px_30.AnchorPoint = Vector2.new(0.5, 0.5)
-SpiralHub.TextButton_Roundify_2px_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpiralHub.TextButton_Roundify_2px_30.BackgroundTransparency = 1.000
-SpiralHub.TextButton_Roundify_2px_30.Position = UDim2.new(0.5, 0, 0.5, 0)
-SpiralHub.TextButton_Roundify_2px_30.Selectable = true
-SpiralHub.TextButton_Roundify_2px_30.Size = UDim2.new(1, 0, 1, 0)
-SpiralHub.TextButton_Roundify_2px_30.ZIndex = 2
-SpiralHub.TextButton_Roundify_2px_30.Image = "rbxassetid://3570695787"
-SpiralHub.TextButton_Roundify_2px_30.ImageColor3 = Color3.fromRGB(30, 30, 30)
-SpiralHub.TextButton_Roundify_2px_30.ScaleType = Enum.ScaleType.Slice
-SpiralHub.TextButton_Roundify_2px_30.SliceCenter = Rect.new(100, 100, 100, 100)
-SpiralHub.TextButton_Roundify_2px_30.SliceScale = 0.020
+SpiralHub.TextButton_Roundify_2px_33.Name = "TextButton_Roundify_2px"
+SpiralHub.TextButton_Roundify_2px_33.Parent = SpiralHub.dark
+SpiralHub.TextButton_Roundify_2px_33.Active = true
+SpiralHub.TextButton_Roundify_2px_33.AnchorPoint = Vector2.new(0.5, 0.5)
+SpiralHub.TextButton_Roundify_2px_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_Roundify_2px_33.BackgroundTransparency = 1.000
+SpiralHub.TextButton_Roundify_2px_33.Position = UDim2.new(0.5, 0, 0.5, 0)
+SpiralHub.TextButton_Roundify_2px_33.Selectable = true
+SpiralHub.TextButton_Roundify_2px_33.Size = UDim2.new(1, 0, 1, 0)
+SpiralHub.TextButton_Roundify_2px_33.ZIndex = 2
+SpiralHub.TextButton_Roundify_2px_33.Image = "rbxassetid://3570695787"
+SpiralHub.TextButton_Roundify_2px_33.ImageColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_Roundify_2px_33.ScaleType = Enum.ScaleType.Slice
+SpiralHub.TextButton_Roundify_2px_33.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.TextButton_Roundify_2px_33.SliceScale = 0.020
 
 SpiralHub.Tip_17.Name = "Tip"
 SpiralHub.Tip_17.Parent = SpiralHub.dark
@@ -2289,7 +2592,7 @@ SpiralHub.TextLabel_Roundify_2px_21.SliceCenter = Rect.new(100, 100, 100, 100)
 SpiralHub.TextLabel_Roundify_2px_21.SliceScale = 0.020
 
 SpiralHub.BloxBurg.Name = "BloxBurg"
-SpiralHub.BloxBurg.Parent = SpiralHub.Scripts_10
+SpiralHub.BloxBurg.Parent = SpiralHub.Scripts_14
 SpiralHub.BloxBurg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.BloxBurg.BackgroundTransparency = 1.000
 SpiralHub.BloxBurg.BorderSizePixel = 0
@@ -2310,21 +2613,21 @@ SpiralHub.alpha.Text = "AlphaX Gui"
 SpiralHub.alpha.TextColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.alpha.TextSize = 14.000
 
-SpiralHub.TextButton_Roundify_2px_31.Name = "TextButton_Roundify_2px"
-SpiralHub.TextButton_Roundify_2px_31.Parent = SpiralHub.alpha
-SpiralHub.TextButton_Roundify_2px_31.Active = true
-SpiralHub.TextButton_Roundify_2px_31.AnchorPoint = Vector2.new(0.5, 0.5)
-SpiralHub.TextButton_Roundify_2px_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpiralHub.TextButton_Roundify_2px_31.BackgroundTransparency = 1.000
-SpiralHub.TextButton_Roundify_2px_31.Position = UDim2.new(0.5, 0, 0.5, 0)
-SpiralHub.TextButton_Roundify_2px_31.Selectable = true
-SpiralHub.TextButton_Roundify_2px_31.Size = UDim2.new(1, 0, 1, 0)
-SpiralHub.TextButton_Roundify_2px_31.ZIndex = 2
-SpiralHub.TextButton_Roundify_2px_31.Image = "rbxassetid://3570695787"
-SpiralHub.TextButton_Roundify_2px_31.ImageColor3 = Color3.fromRGB(30, 30, 30)
-SpiralHub.TextButton_Roundify_2px_31.ScaleType = Enum.ScaleType.Slice
-SpiralHub.TextButton_Roundify_2px_31.SliceCenter = Rect.new(100, 100, 100, 100)
-SpiralHub.TextButton_Roundify_2px_31.SliceScale = 0.020
+SpiralHub.TextButton_Roundify_2px_34.Name = "TextButton_Roundify_2px"
+SpiralHub.TextButton_Roundify_2px_34.Parent = SpiralHub.alpha
+SpiralHub.TextButton_Roundify_2px_34.Active = true
+SpiralHub.TextButton_Roundify_2px_34.AnchorPoint = Vector2.new(0.5, 0.5)
+SpiralHub.TextButton_Roundify_2px_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_Roundify_2px_34.BackgroundTransparency = 1.000
+SpiralHub.TextButton_Roundify_2px_34.Position = UDim2.new(0.5, 0, 0.5, 0)
+SpiralHub.TextButton_Roundify_2px_34.Selectable = true
+SpiralHub.TextButton_Roundify_2px_34.Size = UDim2.new(1, 0, 1, 0)
+SpiralHub.TextButton_Roundify_2px_34.ZIndex = 2
+SpiralHub.TextButton_Roundify_2px_34.Image = "rbxassetid://3570695787"
+SpiralHub.TextButton_Roundify_2px_34.ImageColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_Roundify_2px_34.ScaleType = Enum.ScaleType.Slice
+SpiralHub.TextButton_Roundify_2px_34.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.TextButton_Roundify_2px_34.SliceScale = 0.020
 
 SpiralHub.Tip_18.Name = "Tip"
 SpiralHub.Tip_18.Parent = SpiralHub.alpha
@@ -2381,7 +2684,7 @@ SpiralHub.TextLabel_Roundify_2px_23.SliceCenter = Rect.new(100, 100, 100, 100)
 SpiralHub.TextLabel_Roundify_2px_23.SliceScale = 0.020
 
 SpiralHub.Paintball.Name = "Paintball"
-SpiralHub.Paintball.Parent = SpiralHub.Scripts_10
+SpiralHub.Paintball.Parent = SpiralHub.Scripts_14
 SpiralHub.Paintball.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.Paintball.BackgroundTransparency = 1.000
 SpiralHub.Paintball.BorderSizePixel = 0
@@ -2402,21 +2705,21 @@ SpiralHub.dark_2.Text = "Dark Hub"
 SpiralHub.dark_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.dark_2.TextSize = 14.000
 
-SpiralHub.TextButton_Roundify_2px_32.Name = "TextButton_Roundify_2px"
-SpiralHub.TextButton_Roundify_2px_32.Parent = SpiralHub.dark_2
-SpiralHub.TextButton_Roundify_2px_32.Active = true
-SpiralHub.TextButton_Roundify_2px_32.AnchorPoint = Vector2.new(0.5, 0.5)
-SpiralHub.TextButton_Roundify_2px_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpiralHub.TextButton_Roundify_2px_32.BackgroundTransparency = 1.000
-SpiralHub.TextButton_Roundify_2px_32.Position = UDim2.new(0.5, 0, 0.5, 0)
-SpiralHub.TextButton_Roundify_2px_32.Selectable = true
-SpiralHub.TextButton_Roundify_2px_32.Size = UDim2.new(1, 0, 1, 0)
-SpiralHub.TextButton_Roundify_2px_32.ZIndex = 2
-SpiralHub.TextButton_Roundify_2px_32.Image = "rbxassetid://3570695787"
-SpiralHub.TextButton_Roundify_2px_32.ImageColor3 = Color3.fromRGB(30, 30, 30)
-SpiralHub.TextButton_Roundify_2px_32.ScaleType = Enum.ScaleType.Slice
-SpiralHub.TextButton_Roundify_2px_32.SliceCenter = Rect.new(100, 100, 100, 100)
-SpiralHub.TextButton_Roundify_2px_32.SliceScale = 0.020
+SpiralHub.TextButton_Roundify_2px_35.Name = "TextButton_Roundify_2px"
+SpiralHub.TextButton_Roundify_2px_35.Parent = SpiralHub.dark_2
+SpiralHub.TextButton_Roundify_2px_35.Active = true
+SpiralHub.TextButton_Roundify_2px_35.AnchorPoint = Vector2.new(0.5, 0.5)
+SpiralHub.TextButton_Roundify_2px_35.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_Roundify_2px_35.BackgroundTransparency = 1.000
+SpiralHub.TextButton_Roundify_2px_35.Position = UDim2.new(0.5, 0, 0.5, 0)
+SpiralHub.TextButton_Roundify_2px_35.Selectable = true
+SpiralHub.TextButton_Roundify_2px_35.Size = UDim2.new(1, 0, 1, 0)
+SpiralHub.TextButton_Roundify_2px_35.ZIndex = 2
+SpiralHub.TextButton_Roundify_2px_35.Image = "rbxassetid://3570695787"
+SpiralHub.TextButton_Roundify_2px_35.ImageColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_Roundify_2px_35.ScaleType = Enum.ScaleType.Slice
+SpiralHub.TextButton_Roundify_2px_35.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.TextButton_Roundify_2px_35.SliceScale = 0.020
 
 SpiralHub.Tip_19.Name = "Tip"
 SpiralHub.Tip_19.Parent = SpiralHub.dark_2
@@ -2473,7 +2776,7 @@ SpiralHub.TextLabel_Roundify_2px_25.SliceCenter = Rect.new(100, 100, 100, 100)
 SpiralHub.TextLabel_Roundify_2px_25.SliceScale = 0.020
 
 SpiralHub.CounterBlox.Name = "CounterBlox"
-SpiralHub.CounterBlox.Parent = SpiralHub.Scripts_10
+SpiralHub.CounterBlox.Parent = SpiralHub.Scripts_14
 SpiralHub.CounterBlox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.CounterBlox.BackgroundTransparency = 1.000
 SpiralHub.CounterBlox.BorderSizePixel = 0
@@ -2494,21 +2797,21 @@ SpiralHub.hex.Text = "Hex Hub"
 SpiralHub.hex.TextColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.hex.TextSize = 14.000
 
-SpiralHub.TextButton_Roundify_2px_33.Name = "TextButton_Roundify_2px"
-SpiralHub.TextButton_Roundify_2px_33.Parent = SpiralHub.hex
-SpiralHub.TextButton_Roundify_2px_33.Active = true
-SpiralHub.TextButton_Roundify_2px_33.AnchorPoint = Vector2.new(0.5, 0.5)
-SpiralHub.TextButton_Roundify_2px_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpiralHub.TextButton_Roundify_2px_33.BackgroundTransparency = 1.000
-SpiralHub.TextButton_Roundify_2px_33.Position = UDim2.new(0.5, 0, 0.5, 0)
-SpiralHub.TextButton_Roundify_2px_33.Selectable = true
-SpiralHub.TextButton_Roundify_2px_33.Size = UDim2.new(1, 0, 1, 0)
-SpiralHub.TextButton_Roundify_2px_33.ZIndex = 2
-SpiralHub.TextButton_Roundify_2px_33.Image = "rbxassetid://3570695787"
-SpiralHub.TextButton_Roundify_2px_33.ImageColor3 = Color3.fromRGB(30, 30, 30)
-SpiralHub.TextButton_Roundify_2px_33.ScaleType = Enum.ScaleType.Slice
-SpiralHub.TextButton_Roundify_2px_33.SliceCenter = Rect.new(100, 100, 100, 100)
-SpiralHub.TextButton_Roundify_2px_33.SliceScale = 0.020
+SpiralHub.TextButton_Roundify_2px_36.Name = "TextButton_Roundify_2px"
+SpiralHub.TextButton_Roundify_2px_36.Parent = SpiralHub.hex
+SpiralHub.TextButton_Roundify_2px_36.Active = true
+SpiralHub.TextButton_Roundify_2px_36.AnchorPoint = Vector2.new(0.5, 0.5)
+SpiralHub.TextButton_Roundify_2px_36.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_Roundify_2px_36.BackgroundTransparency = 1.000
+SpiralHub.TextButton_Roundify_2px_36.Position = UDim2.new(0.5, 0, 0.5, 0)
+SpiralHub.TextButton_Roundify_2px_36.Selectable = true
+SpiralHub.TextButton_Roundify_2px_36.Size = UDim2.new(1, 0, 1, 0)
+SpiralHub.TextButton_Roundify_2px_36.ZIndex = 2
+SpiralHub.TextButton_Roundify_2px_36.Image = "rbxassetid://3570695787"
+SpiralHub.TextButton_Roundify_2px_36.ImageColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_Roundify_2px_36.ScaleType = Enum.ScaleType.Slice
+SpiralHub.TextButton_Roundify_2px_36.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.TextButton_Roundify_2px_36.SliceScale = 0.020
 
 SpiralHub.Tip_20.Name = "Tip"
 SpiralHub.Tip_20.Parent = SpiralHub.hex
@@ -2565,7 +2868,7 @@ SpiralHub.TextLabel_Roundify_2px_27.SliceCenter = Rect.new(100, 100, 100, 100)
 SpiralHub.TextLabel_Roundify_2px_27.SliceScale = 0.020
 
 SpiralHub.BreakingPoint.Name = "BreakingPoint"
-SpiralHub.BreakingPoint.Parent = SpiralHub.Scripts_10
+SpiralHub.BreakingPoint.Parent = SpiralHub.Scripts_14
 SpiralHub.BreakingPoint.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.BreakingPoint.BackgroundTransparency = 1.000
 SpiralHub.BreakingPoint.BorderSizePixel = 0
@@ -2586,21 +2889,21 @@ SpiralHub.auto.Text = "Auto Shoot / Aim"
 SpiralHub.auto.TextColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.auto.TextSize = 14.000
 
-SpiralHub.TextButton_Roundify_2px_34.Name = "TextButton_Roundify_2px"
-SpiralHub.TextButton_Roundify_2px_34.Parent = SpiralHub.auto
-SpiralHub.TextButton_Roundify_2px_34.Active = true
-SpiralHub.TextButton_Roundify_2px_34.AnchorPoint = Vector2.new(0.5, 0.5)
-SpiralHub.TextButton_Roundify_2px_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpiralHub.TextButton_Roundify_2px_34.BackgroundTransparency = 1.000
-SpiralHub.TextButton_Roundify_2px_34.Position = UDim2.new(0.5, 0, 0.5, 0)
-SpiralHub.TextButton_Roundify_2px_34.Selectable = true
-SpiralHub.TextButton_Roundify_2px_34.Size = UDim2.new(1, 0, 1, 0)
-SpiralHub.TextButton_Roundify_2px_34.ZIndex = 2
-SpiralHub.TextButton_Roundify_2px_34.Image = "rbxassetid://3570695787"
-SpiralHub.TextButton_Roundify_2px_34.ImageColor3 = Color3.fromRGB(30, 30, 30)
-SpiralHub.TextButton_Roundify_2px_34.ScaleType = Enum.ScaleType.Slice
-SpiralHub.TextButton_Roundify_2px_34.SliceCenter = Rect.new(100, 100, 100, 100)
-SpiralHub.TextButton_Roundify_2px_34.SliceScale = 0.020
+SpiralHub.TextButton_Roundify_2px_37.Name = "TextButton_Roundify_2px"
+SpiralHub.TextButton_Roundify_2px_37.Parent = SpiralHub.auto
+SpiralHub.TextButton_Roundify_2px_37.Active = true
+SpiralHub.TextButton_Roundify_2px_37.AnchorPoint = Vector2.new(0.5, 0.5)
+SpiralHub.TextButton_Roundify_2px_37.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_Roundify_2px_37.BackgroundTransparency = 1.000
+SpiralHub.TextButton_Roundify_2px_37.Position = UDim2.new(0.5, 0, 0.5, 0)
+SpiralHub.TextButton_Roundify_2px_37.Selectable = true
+SpiralHub.TextButton_Roundify_2px_37.Size = UDim2.new(1, 0, 1, 0)
+SpiralHub.TextButton_Roundify_2px_37.ZIndex = 2
+SpiralHub.TextButton_Roundify_2px_37.Image = "rbxassetid://3570695787"
+SpiralHub.TextButton_Roundify_2px_37.ImageColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_Roundify_2px_37.ScaleType = Enum.ScaleType.Slice
+SpiralHub.TextButton_Roundify_2px_37.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.TextButton_Roundify_2px_37.SliceScale = 0.020
 
 SpiralHub.Tip_21.Name = "Tip"
 SpiralHub.Tip_21.Parent = SpiralHub.auto
@@ -2657,7 +2960,7 @@ SpiralHub.TextLabel_Roundify_2px_29.SliceCenter = Rect.new(100, 100, 100, 100)
 SpiralHub.TextLabel_Roundify_2px_29.SliceScale = 0.020
 
 SpiralHub.Prisonlife.Name = "Prisonlife"
-SpiralHub.Prisonlife.Parent = SpiralHub.Scripts_10
+SpiralHub.Prisonlife.Parent = SpiralHub.Scripts_14
 SpiralHub.Prisonlife.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.Prisonlife.BackgroundTransparency = 1.000
 SpiralHub.Prisonlife.BorderSizePixel = 0
@@ -2678,21 +2981,21 @@ SpiralHub.gui.Text = "PrisonLife GUI"
 SpiralHub.gui.TextColor3 = Color3.fromRGB(255, 255, 255)
 SpiralHub.gui.TextSize = 14.000
 
-SpiralHub.TextButton_Roundify_2px_35.Name = "TextButton_Roundify_2px"
-SpiralHub.TextButton_Roundify_2px_35.Parent = SpiralHub.gui
-SpiralHub.TextButton_Roundify_2px_35.Active = true
-SpiralHub.TextButton_Roundify_2px_35.AnchorPoint = Vector2.new(0.5, 0.5)
-SpiralHub.TextButton_Roundify_2px_35.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpiralHub.TextButton_Roundify_2px_35.BackgroundTransparency = 1.000
-SpiralHub.TextButton_Roundify_2px_35.Position = UDim2.new(0.5, 0, 0.5, 0)
-SpiralHub.TextButton_Roundify_2px_35.Selectable = true
-SpiralHub.TextButton_Roundify_2px_35.Size = UDim2.new(1, 0, 1, 0)
-SpiralHub.TextButton_Roundify_2px_35.ZIndex = 2
-SpiralHub.TextButton_Roundify_2px_35.Image = "rbxassetid://3570695787"
-SpiralHub.TextButton_Roundify_2px_35.ImageColor3 = Color3.fromRGB(30, 30, 30)
-SpiralHub.TextButton_Roundify_2px_35.ScaleType = Enum.ScaleType.Slice
-SpiralHub.TextButton_Roundify_2px_35.SliceCenter = Rect.new(100, 100, 100, 100)
-SpiralHub.TextButton_Roundify_2px_35.SliceScale = 0.020
+SpiralHub.TextButton_Roundify_2px_38.Name = "TextButton_Roundify_2px"
+SpiralHub.TextButton_Roundify_2px_38.Parent = SpiralHub.gui
+SpiralHub.TextButton_Roundify_2px_38.Active = true
+SpiralHub.TextButton_Roundify_2px_38.AnchorPoint = Vector2.new(0.5, 0.5)
+SpiralHub.TextButton_Roundify_2px_38.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiralHub.TextButton_Roundify_2px_38.BackgroundTransparency = 1.000
+SpiralHub.TextButton_Roundify_2px_38.Position = UDim2.new(0.5, 0, 0.5, 0)
+SpiralHub.TextButton_Roundify_2px_38.Selectable = true
+SpiralHub.TextButton_Roundify_2px_38.Size = UDim2.new(1, 0, 1, 0)
+SpiralHub.TextButton_Roundify_2px_38.ZIndex = 2
+SpiralHub.TextButton_Roundify_2px_38.Image = "rbxassetid://3570695787"
+SpiralHub.TextButton_Roundify_2px_38.ImageColor3 = Color3.fromRGB(30, 30, 30)
+SpiralHub.TextButton_Roundify_2px_38.ScaleType = Enum.ScaleType.Slice
+SpiralHub.TextButton_Roundify_2px_38.SliceCenter = Rect.new(100, 100, 100, 100)
+SpiralHub.TextButton_Roundify_2px_38.SliceScale = 0.020
 
 SpiralHub.Tip_22.Name = "Tip"
 SpiralHub.Tip_22.Parent = SpiralHub.gui
@@ -2755,6 +3058,7 @@ SpiralHub.Changelogs.BackgroundTransparency = 1.000
 SpiralHub.Changelogs.BorderSizePixel = 0
 SpiralHub.Changelogs.Position = UDim2.new(0, 0, 0.000991555862, 0)
 SpiralHub.Changelogs.Size = UDim2.new(0, 500, 0, 229)
+SpiralHub.Changelogs.Visible = false
 
 SpiralHub.Change_2.Name = "Change"
 SpiralHub.Change_2.Parent = SpiralHub.Changelogs
@@ -2943,7 +3247,7 @@ SpiralHub.Open.Image = "rbxassetid://6091326492"
 
 -- Scripts:
 
-local function GPRPR_fake_script() -- SpiralHub.SpiralHub.LocalScript 
+local function MGPJSUI_fake_script() -- SpiralHub.SpiralHub.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.SpiralHub)
 
 	local Frame = script.Parent.Frame
@@ -2993,12 +3297,14 @@ local function GPRPR_fake_script() -- SpiralHub.SpiralHub.LocalScript
 		Scripts.Jailbreak.Visible = false
 		Scripts.Paintball.Visible = false
 		Scripts.BreakingPoint.Visible = false
-		Scripts.Prisonlife.Visible = false
+		Scripts.Prisonlife.Visible = fals
 	end)
 	
 	Tabs.Games.Visible = false
 	Scripts.Visible = false
 	Tabs.Changelogs.Visible = true
+	Frame.Visible = false
+	script.Parent.Open.Visible = true
 	
 	print("Made by Blue. Enjoy!")
 	
@@ -3012,8 +3318,8 @@ local function GPRPR_fake_script() -- SpiralHub.SpiralHub.LocalScript
 		script.Parent.Open.Visible = false
 	end)
 end
-coroutine.wrap(GPRPR_fake_script)()
-local function HWPAJJO_fake_script() -- SpiralHub.Username.LocalScript 
+coroutine.wrap(MGPJSUI_fake_script)()
+local function MBOCDZX_fake_script() -- SpiralHub.Username.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.Username)
 
 	local Player = game.Players.LocalPlayer
@@ -3034,8 +3340,8 @@ local function HWPAJJO_fake_script() -- SpiralHub.Username.LocalScript
 	
 	script.Parent.Text = ("Welcome, "..Player.Name..". Rank: "..rank)
 end
-coroutine.wrap(HWPAJJO_fake_script)()
-local function BPICD_fake_script() -- SpiralHub.Frame.Draggable 
+coroutine.wrap(MBOCDZX_fake_script)()
+local function CYVDZY_fake_script() -- SpiralHub.Frame.Draggable 
 	local script = Instance.new('LocalScript', SpiralHub.Frame)
 
 	function Drag(GUI)
@@ -3077,8 +3383,8 @@ local function BPICD_fake_script() -- SpiralHub.Frame.Draggable
 	
 	Drag(script.Parent)
 end
-coroutine.wrap(BPICD_fake_script)()
-local function WQIZTJ_fake_script() -- SpiralHub.TextButton.LocalScript 
+coroutine.wrap(CYVDZY_fake_script)()
+local function IXOTPN_fake_script() -- SpiralHub.TextButton.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3097,8 +3403,8 @@ local function WQIZTJ_fake_script() -- SpiralHub.TextButton.LocalScript
 		Scripts.Prisonlife.Visible = false
 	end)
 end
-coroutine.wrap(WQIZTJ_fake_script)()
-local function APXK_fake_script() -- SpiralHub.TextButton_2.LocalScript 
+coroutine.wrap(IXOTPN_fake_script)()
+local function ADFJ_fake_script() -- SpiralHub.TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3117,8 +3423,8 @@ local function APXK_fake_script() -- SpiralHub.TextButton_2.LocalScript
 		Scripts.Prisonlife.Visible = false
 	end)
 end
-coroutine.wrap(APXK_fake_script)()
-local function HYWJK_fake_script() -- SpiralHub.TextButton_3.LocalScript 
+coroutine.wrap(ADFJ_fake_script)()
+local function RQILSLP_fake_script() -- SpiralHub.TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3137,8 +3443,8 @@ local function HYWJK_fake_script() -- SpiralHub.TextButton_3.LocalScript
 		Scripts.Prisonlife.Visible = false
 	end)
 end
-coroutine.wrap(HYWJK_fake_script)()
-local function BOQN_fake_script() -- SpiralHub.TextButton_4.LocalScript 
+coroutine.wrap(RQILSLP_fake_script)()
+local function SMHDFH_fake_script() -- SpiralHub.TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.TextButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3157,8 +3463,8 @@ local function BOQN_fake_script() -- SpiralHub.TextButton_4.LocalScript
 		Scripts.Prisonlife.Visible = false
 	end)
 end
-coroutine.wrap(BOQN_fake_script)()
-local function JPWTY_fake_script() -- SpiralHub.TextButton_5.LocalScript 
+coroutine.wrap(SMHDFH_fake_script)()
+local function LGWZB_fake_script() -- SpiralHub.TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3177,8 +3483,8 @@ local function JPWTY_fake_script() -- SpiralHub.TextButton_5.LocalScript
 		Scripts.Prisonlife.Visible = false
 	end)
 end
-coroutine.wrap(JPWTY_fake_script)()
-local function IMZTAOS_fake_script() -- SpiralHub.TextButton_6.LocalScript 
+coroutine.wrap(LGWZB_fake_script)()
+local function UHKJVDG_fake_script() -- SpiralHub.TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.TextButton_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3197,8 +3503,8 @@ local function IMZTAOS_fake_script() -- SpiralHub.TextButton_6.LocalScript
 		Scripts.Prisonlife.Visible = false
 	end)
 end
-coroutine.wrap(IMZTAOS_fake_script)()
-local function URBD_fake_script() -- SpiralHub.TextButton_7.LocalScript 
+coroutine.wrap(UHKJVDG_fake_script)()
+local function HNIHZK_fake_script() -- SpiralHub.TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.TextButton_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3217,8 +3523,8 @@ local function URBD_fake_script() -- SpiralHub.TextButton_7.LocalScript
 		Scripts.Prisonlife.Visible = true
 	end)
 end
-coroutine.wrap(URBD_fake_script)()
-local function XUJBV_fake_script() -- SpiralHub.TextButton_8.LocalScript 
+coroutine.wrap(HNIHZK_fake_script)()
+local function MYHOGWX_fake_script() -- SpiralHub.TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.TextButton_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3237,28 +3543,42 @@ local function XUJBV_fake_script() -- SpiralHub.TextButton_8.LocalScript
 		Scripts.Visible = true
 	end)
 end
-coroutine.wrap(XUJBV_fake_script)()
-local function GBNMAT_fake_script() -- SpiralHub.TextButton_9.LocalScript 
+coroutine.wrap(MYHOGWX_fake_script)()
+local function JVTFOKD_fake_script() -- SpiralHub.TextButton_9.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.TextButton_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		local Tabs = script.Parent.Parent.Parent
-		local Scripts = script.Parent.Parent.Parent.Scripts
-		Tabs.Games.Visible = false
-		Scripts.Visible = true
-		Scripts.DaHood.Visible = false
-		Scripts.CounterBlox.Visible = false
-		Scripts.Strucid.Visible = false
-		Scripts.BloxBurg.Visible = false
-		Scripts.General.Visible = true
-		Scripts.Jailbreak.Visible = false
-		Scripts.Paintball.Visible = false
-		Scripts.BreakingPoint.Visible = false
-		Scripts.Prisonlife.Visible = false
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/uhohstinkyxiodra/miscelaniousshit/main/rakesp'))()
+		loadstring(game:HttpGet('https://pastebin.com/raw/7a0YEgv3'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/uhohstinkyxiodra/miscelaniousshit/main/rakeyes'))()
 	end)
 end
-coroutine.wrap(GBNMAT_fake_script)()
-local function AQYMW_fake_script() -- SpiralHub.inf.LocalScript 
+coroutine.wrap(JVTFOKD_fake_script)()
+local function FBXAB_fake_script() -- SpiralHub.TextButton_10.LocalScript 
+	local script = Instance.new('LocalScript', SpiralHub.TextButton_10)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/uhohstinkyxiodra/miscelaniousshit/main/unpatchabomb'))()
+	end)
+end
+coroutine.wrap(FBXAB_fake_script)()
+local function ERWSJCX_fake_script() -- SpiralHub.TextButton_11.LocalScript 
+	local script = Instance.new('LocalScript', SpiralHub.TextButton_11)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/uhohstinkyxiodra/miscelaniousshit/main/robeats'))()
+	end)
+end
+coroutine.wrap(ERWSJCX_fake_script)()
+local function VJABN_fake_script() -- SpiralHub.TextButton_12.LocalScript 
+	local script = Instance.new('LocalScript', SpiralHub.TextButton_12)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
+	end)
+end
+coroutine.wrap(VJABN_fake_script)()
+local function LYXB_fake_script() -- SpiralHub.inf.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.inf)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3282,8 +3602,8 @@ local function AQYMW_fake_script() -- SpiralHub.inf.LocalScript
 		Enter = false
 	end)
 end
-coroutine.wrap(AQYMW_fake_script)()
-local function KFTK_fake_script() -- SpiralHub.antikick.LocalScript 
+coroutine.wrap(LYXB_fake_script)()
+local function URXEFY_fake_script() -- SpiralHub.antikick.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.antikick)
 
 	
@@ -3318,14 +3638,15 @@ local function KFTK_fake_script() -- SpiralHub.antikick.LocalScript
 		Enter = false
 	end)
 end
-coroutine.wrap(KFTK_fake_script)()
-local function YANW_fake_script() -- SpiralHub.fullbright.LocalScript 
+coroutine.wrap(URXEFY_fake_script)()
+local function RJSB_fake_script() -- SpiralHub.fullbright.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.fullbright)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	while wait() do
-				game:GetService("Lighting").CurrentLightingProperties.BRIGHTNESS.Value = 50
-				game:GetService("Lighting").CurrentLightingProperties.FOGEND.Value = 999999
+			game:GetService("ReplicatedStorage").CurrentLightingProperties.BRIGHTNESS.Value = 50
+			
+			game:GetService("ReplicatedStorage").CurrentLightingProperties.FOGEND.Value = 999999
 		end
 	end)
 	
@@ -3346,8 +3667,8 @@ local function YANW_fake_script() -- SpiralHub.fullbright.LocalScript
 		Enter = false
 	end)
 end
-coroutine.wrap(YANW_fake_script)()
-local function FPVBBEN_fake_script() -- SpiralHub.equip.LocalScript 
+coroutine.wrap(RJSB_fake_script)()
+local function WVNZ_fake_script() -- SpiralHub.equip.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.equip)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3373,8 +3694,8 @@ local function FPVBBEN_fake_script() -- SpiralHub.equip.LocalScript
 		Enter = false
 	end)
 end
-coroutine.wrap(FPVBBEN_fake_script)()
-local function OAXDH_fake_script() -- SpiralHub.discord.LocalScript 
+coroutine.wrap(WVNZ_fake_script)()
+local function PPHLAOQ_fake_script() -- SpiralHub.discord.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.discord)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3398,8 +3719,8 @@ local function OAXDH_fake_script() -- SpiralHub.discord.LocalScript
 		Enter = false
 	end)
 end
-coroutine.wrap(OAXDH_fake_script)()
-local function EKDQ_fake_script() -- SpiralHub.chatbypass.LocalScript 
+coroutine.wrap(PPHLAOQ_fake_script)()
+local function USLTB_fake_script() -- SpiralHub.chatbypass.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.chatbypass)
 
 	
@@ -3424,8 +3745,8 @@ local function EKDQ_fake_script() -- SpiralHub.chatbypass.LocalScript
 		Enter = false
 	end)
 end
-coroutine.wrap(EKDQ_fake_script)()
-local function HREK_fake_script() -- SpiralHub.InvisFling.LocalScript 
+coroutine.wrap(USLTB_fake_script)()
+local function DWPLPS_fake_script() -- SpiralHub.InvisFling.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.InvisFling)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3449,8 +3770,8 @@ local function HREK_fake_script() -- SpiralHub.InvisFling.LocalScript
 		Enter = false
 	end)
 end
-coroutine.wrap(HREK_fake_script)()
-local function AVRC_fake_script() -- SpiralHub.godmode.LocalScript 
+coroutine.wrap(DWPLPS_fake_script)()
+local function DADIYZV_fake_script() -- SpiralHub.godmode.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.godmode)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3474,8 +3795,8 @@ local function AVRC_fake_script() -- SpiralHub.godmode.LocalScript
 		Enter = false
 	end)
 end
-coroutine.wrap(AVRC_fake_script)()
-local function ZXIPDB_fake_script() -- SpiralHub.OwlHub.LocalScript 
+coroutine.wrap(DADIYZV_fake_script)()
+local function GUKQNZW_fake_script() -- SpiralHub.OwlHub.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.OwlHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3499,8 +3820,8 @@ local function ZXIPDB_fake_script() -- SpiralHub.OwlHub.LocalScript
 		Enter = false
 	end)
 end
-coroutine.wrap(ZXIPDB_fake_script)()
-local function WJGXOB_fake_script() -- SpiralHub.graphics.LocalScript 
+coroutine.wrap(GUKQNZW_fake_script)()
+local function GOIUWG_fake_script() -- SpiralHub.graphics.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.graphics)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3524,8 +3845,8 @@ local function WJGXOB_fake_script() -- SpiralHub.graphics.LocalScript
 		Enter = false
 	end)
 end
-coroutine.wrap(WJGXOB_fake_script)()
-local function APJGSKJ_fake_script() -- SpiralHub.dance.LocalScript 
+coroutine.wrap(GOIUWG_fake_script)()
+local function YSOGGJ_fake_script() -- SpiralHub.dance.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.dance)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3549,8 +3870,8 @@ local function APJGSKJ_fake_script() -- SpiralHub.dance.LocalScript
 		Enter = false
 	end)
 end
-coroutine.wrap(APJGSKJ_fake_script)()
-local function CZFNRXZ_fake_script() -- SpiralHub.aimbot.LocalScript 
+coroutine.wrap(YSOGGJ_fake_script)()
+local function OBMFKWE_fake_script() -- SpiralHub.aimbot.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.aimbot)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3574,8 +3895,8 @@ local function CZFNRXZ_fake_script() -- SpiralHub.aimbot.LocalScript
 		Enter = false
 	end)
 end
-coroutine.wrap(CZFNRXZ_fake_script)()
-local function WKHZGUQ_fake_script() -- SpiralHub.chathaxx.LocalScript 
+coroutine.wrap(OBMFKWE_fake_script)()
+local function MIZNKAA_fake_script() -- SpiralHub.chathaxx.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.chathaxx)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3599,8 +3920,8 @@ local function WKHZGUQ_fake_script() -- SpiralHub.chathaxx.LocalScript
 		Enter = false
 	end)
 end
-coroutine.wrap(WKHZGUQ_fake_script)()
-local function OVEY_fake_script() -- SpiralHub.darkhub.LocalScript 
+coroutine.wrap(MIZNKAA_fake_script)()
+local function WCQLXV_fake_script() -- SpiralHub.darkhub.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.darkhub)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3624,8 +3945,8 @@ local function OVEY_fake_script() -- SpiralHub.darkhub.LocalScript
 		Enter = false
 	end)
 end
-coroutine.wrap(OVEY_fake_script)()
-local function KGGJZ_fake_script() -- SpiralHub.guis.LocalScript 
+coroutine.wrap(WCQLXV_fake_script)()
+local function UDIFFV_fake_script() -- SpiralHub.guis.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.guis)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3649,8 +3970,8 @@ local function KGGJZ_fake_script() -- SpiralHub.guis.LocalScript
 		Enter = false
 	end)
 end
-coroutine.wrap(KGGJZ_fake_script)()
-local function JPGU_fake_script() -- SpiralHub.rob.LocalScript 
+coroutine.wrap(UDIFFV_fake_script)()
+local function ICVJV_fake_script() -- SpiralHub.rob.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.rob)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3674,8 +3995,8 @@ local function JPGU_fake_script() -- SpiralHub.rob.LocalScript
 		Enter = false
 	end)
 end
-coroutine.wrap(JPGU_fake_script)()
-local function MPVY_fake_script() -- SpiralHub.dark.LocalScript 
+coroutine.wrap(ICVJV_fake_script)()
+local function JBLOFK_fake_script() -- SpiralHub.dark.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.dark)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3699,8 +4020,8 @@ local function MPVY_fake_script() -- SpiralHub.dark.LocalScript
 		Enter = false
 	end)
 end
-coroutine.wrap(MPVY_fake_script)()
-local function ZAVKK_fake_script() -- SpiralHub.alpha.LocalScript 
+coroutine.wrap(JBLOFK_fake_script)()
+local function ZZJGYOF_fake_script() -- SpiralHub.alpha.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.alpha)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3724,8 +4045,8 @@ local function ZAVKK_fake_script() -- SpiralHub.alpha.LocalScript
 		Enter = false
 	end)
 end
-coroutine.wrap(ZAVKK_fake_script)()
-local function KJNEHV_fake_script() -- SpiralHub.dark_2.LocalScript 
+coroutine.wrap(ZZJGYOF_fake_script)()
+local function WXOP_fake_script() -- SpiralHub.dark_2.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.dark_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3749,8 +4070,8 @@ local function KJNEHV_fake_script() -- SpiralHub.dark_2.LocalScript
 		Enter = false
 	end)
 end
-coroutine.wrap(KJNEHV_fake_script)()
-local function TSVMZ_fake_script() -- SpiralHub.hex.LocalScript 
+coroutine.wrap(WXOP_fake_script)()
+local function DKYDIJ_fake_script() -- SpiralHub.hex.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.hex)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3774,8 +4095,8 @@ local function TSVMZ_fake_script() -- SpiralHub.hex.LocalScript
 		Enter = false
 	end)
 end
-coroutine.wrap(TSVMZ_fake_script)()
-local function WOLJN_fake_script() -- SpiralHub.auto.LocalScript 
+coroutine.wrap(DKYDIJ_fake_script)()
+local function OHNB_fake_script() -- SpiralHub.auto.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.auto)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3799,8 +4120,8 @@ local function WOLJN_fake_script() -- SpiralHub.auto.LocalScript
 		Enter = false
 	end)
 end
-coroutine.wrap(WOLJN_fake_script)()
-local function QHRSODY_fake_script() -- SpiralHub.gui.LocalScript 
+coroutine.wrap(OHNB_fake_script)()
+local function UIXNSJP_fake_script() -- SpiralHub.gui.LocalScript 
 	local script = Instance.new('LocalScript', SpiralHub.gui)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3824,4 +4145,4 @@ local function QHRSODY_fake_script() -- SpiralHub.gui.LocalScript
 		Enter = false
 	end)
 end
-coroutine.wrap(QHRSODY_fake_script)()
+coroutine.wrap(UIXNSJP_fake_script)()
