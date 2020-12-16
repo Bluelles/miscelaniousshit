@@ -1,0 +1,49 @@
+	local player = game.Players.LocalPlayer
+	local alreadyUsed = {}
+	local gui = game:GetObjects("rbxassetid://4605192779")[1]
+
+	gui.Parent = game.CoreGui
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/angeld23/raw-text-host/master/condensed_english_words", true))()
+	--ENGLISH_WORDS is now a table containing ~11k english words (condensed from ~170k)
+
+	function tableItemExists(array, val)
+		for i,v in pairs (array) do 
+			if v == val then 
+				return true
+			end
+		end
+		return false
+	end
+
+	function findWord (str)
+		local found = nil
+		for i,v in pairs (ENGLISH_WORDS) do
+			if string.find(v, string.lower(str)) and not tableItemExists(alreadyUsed, v) then 
+				found = v
+				table.insert(alreadyUsed, v)
+				break
+			end
+		end
+		return found
+	end
+
+	gui.Frame.Search.MouseButton1Click:Connect(function()
+		pcall(function()
+			subtitle = player.PlayerGui.WordBombUI.UIContainer.StageContainer.PC.TitleFrame.Subtitle.Text
+		end)
+
+		if subtitle then
+			gui.Frame.Letters.Text = subtitle .. " - Searching..."
+			wait(0.25)
+			local word = findWord(subtitle)
+			if word then
+				gui.Frame.Letters.Text = "Word Found and Copied to Clipboard: ''" .. word .. "'"
+				setclipboard(word)
+			else
+				gui.Frame.Letters.Text = "Could Not Find Unused Word :("
+			end
+		else
+			gui.Frame.Letters.Text = "[ERROR]"
+		end
+
+	end)
